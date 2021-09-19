@@ -3799,4 +3799,72 @@ Text Notes 13500 1100 0    39   ~ 0
 CMX901QT8\nRF Amplifier 1W RF Power Amplifier\n130 MHz to 950 MHz\nGain 32dB\n6/2.5V\n
 Text Notes 750  1250 0    39   ~ 0
 ECS-2033-300-BN\n3.3V
+Text Notes 4350 1200 0    39   Italic 0
+Change this to 3 volt\nThis is tuning voltage
+Wire Notes Line
+	4350 1000 5050 1000
+Wire Notes Line
+	5050 1000 5050 1300
+Wire Notes Line
+	5050 1300 4350 1300
+Wire Notes Line
+	4350 1300 4350 1000
+Wire Notes Line
+	5150 900  7100 900 
+Wire Notes Line
+	7100 900  7100 3000
+Wire Notes Line
+	7100 3000 5200 3000
+Wire Notes Line
+	5200 3000 5200 900 
+Text Notes 5250 850  0    39   ~ 0
+TLV172 not required as tunign volatge is upto 3 volt only
+Wire Notes Line
+	9900 1900 10750 1900
+Wire Notes Line
+	10750 1900 10750 3200
+Wire Notes Line
+	10750 3200 9900 3200
+Wire Notes Line
+	9900 3200 9900 1900
+Wire Notes Line
+	7550 1550 8400 1550
+Wire Notes Line
+	8400 1550 8400 2500
+Wire Notes Line
+	8400 2500 7550 2500
+Wire Notes Line
+	7550 2500 7550 1550
+Wire Notes Line
+	11200 1700 12650 1700
+Wire Notes Line
+	12650 1700 12650 3050
+Wire Notes Line
+	12650 3050 11200 3050
+Wire Notes Line
+	11200 3050 11200 1700
+Wire Notes Line
+	11050 5400 12000 5400
+Wire Notes Line
+	12000 5400 12000 6350
+Wire Notes Line
+	12000 6350 11050 6350
+Wire Notes Line
+	11050 6350 11050 5400
+Wire Notes Line
+	7800 5700 8500 5700
+Wire Notes Line
+	8500 5700 8500 6400
+Wire Notes Line
+	8500 6400 7800 6400
+Wire Notes Line
+	7800 6400 7800 5700
+Wire Notes Line
+	2500 5600 3250 5600
+Wire Notes Line
+	3250 5600 3250 6350
+Wire Notes Line
+	3250 6350 2500 6350
+Wire Notes Line
+	2500 6350 2500 5600
 $EndSCHEMATC
