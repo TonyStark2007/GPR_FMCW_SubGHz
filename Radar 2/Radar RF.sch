@@ -3797,4 +3797,6 @@ Text Notes 10100 3300 0    39   ~ 0
 Attenuator not required 
 Text Notes 13500 1100 0    39   ~ 0
 CMX901QT8\nRF Amplifier 1W RF Power Amplifier\n130 MHz to 950 MHz\nGain 32dB\n6/2.5V\n
+Text Notes 750  1250 0    39   ~ 0
+ECS-2033-300-BN\n3.3V
 $EndSCHEMATC
