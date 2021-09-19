@@ -3745,7 +3745,7 @@ Text Notes 11250 4600 0    39   ~ 0
 LNA\n4.9 GHz to 5.9 GHz\n2.8/5V
 Text Notes 10000 4800 0    39   ~ 0
 Gain Block Amplifiers\n40 MHz to 6 GHz
-Text Notes 8400 1300 0    39   ~ 0
+Text Notes 8400 1350 0    39   ~ 0
 MAX2620EUA+\nVCO Oscillators\nUMAX-8\n10 MHz to 1050 MHz\n2.7 V to 5.25 V\n-2dBm-6dBm ouput power\nVtune= 0.5V-3.0V
 Wire Notes Line
 	9100 850  9100 1450
