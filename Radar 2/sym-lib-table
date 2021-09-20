@@ -149,4 +149,5 @@
   (lib (name +5)(type Legacy)(uri "/Users/ck/Desktop/Workspace/Kicad Workspace/_LIBRARY AND FOOTPRINT/Library/+5.lib")(options "")(descr ""))
   (lib (name +10)(type Legacy)(uri "/Users/ck/Desktop/Workspace/Kicad Workspace/_LIBRARY AND FOOTPRINT/Library/+10.lib")(options "")(descr ""))
   (lib (name +12)(type Legacy)(uri "/Users/ck/Desktop/Workspace/Kicad Workspace/_LIBRARY AND FOOTPRINT/Library/+12.lib")(options "")(descr ""))
+  (lib (name Rf_library)(type Legacy)(uri "D:/Users/rrupak/Documents/The Resurrection/CODE I.M/The Proposal 2021/GPR/GPR_FMCW_SubGHz/Rf_library.lib")(options "")(descr ""))
 )
