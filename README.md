@@ -2,7 +2,7 @@ This FMCW radar is based on Cenk work.
 
 This is an attempt to make a subGHz radar.
 
-Some description:
+Some description from Cenk's radar:
 
 STM32F4 has triangular waveform generation option with its DAC and also ADF4158 is used for PLL topology. Either option can be used for waveform generation. Check schematic to populate necessary resistor values to use either mode. ADF4158 can generate pulses with some gap between each sweep. In this way N number of samples are packed and buffered over USB during this gap. 
 Main loop runs with a FSM to check conditions of sweep. ADF4158 Muxout is generating pulse according to the sweep condition. External interrupt tracks this pulse to move between FSM states. 
