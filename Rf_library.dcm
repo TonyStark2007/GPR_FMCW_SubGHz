@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADL5541
+D 20-6000MHz RF/IF +15dB gain block, LFCSP-8
+K RF GAIN BLOCK
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5541.pdf
+$ENDCMP
+#
+$CMP BGU7032,115
+D 20-6000MHz RF/IF +20dB gain block, LFCSP-8
+K RF GAIN BLOCK
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf
+$ENDCMP
+#
+#End Doc Library

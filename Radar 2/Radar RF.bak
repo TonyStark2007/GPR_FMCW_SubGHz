@@ -15,106 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R37
-U 1 1 5D8E05ED
-P 6475 2675
-F 0 "R37" H 6475 2725 20  0000 C CNB
-F 1 "4.7K" H 6475 2675 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 6475 2675 50  0001 C CNN
-F 3 "" V 6475 2675 50  0001 C CNN
-	1    6475 2675
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R36
-U 1 1 5D8E0965
-P 6475 2375
-F 0 "R36" H 6475 2425 20  0000 C CNB
-F 1 "4.7K" H 6475 2375 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 6475 2375 50  0001 C CNN
-F 3 "" V 6475 2375 50  0001 C CNN
-	1    6475 2375
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R35
-U 1 1 5D8E0C13
-P 6475 2125
-F 0 "R35" H 6475 2175 20  0000 C CNB
-F 1 "0" H 6475 2125 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 6475 2125 50  0001 C CNN
-F 3 "" V 6475 2125 50  0001 C CNN
-	1    6475 2125
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR081
-U 1 1 5D8E1FAF
-P 6000 2350
-F 0 "#PWR081" H 6000 2100 50  0001 C CNN
-F 1 "GND" H 6000 2225 28  0000 C CNN
-F 2 "" H 6000 2350 50  0001 C CNN
-F 3 "" H 6000 2350 50  0001 C CNN
-	1    6000 2350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 2350 6000 2300
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C59
-U 1 1 5D8E2D21
-P 6125 1650
-F 0 "C59" H 6217 1673 20  0000 L CNB
-F 1 "100nF" H 6217 1628 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 6125 1650 50  0001 C CNN
-F 3 "" H 6125 1650 50  0001 C CNN
-	1    6125 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6000 1700 6000 1600
-Wire Wire Line
-	6000 1600 6125 1600
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR082
-U 1 1 5D8E44F7
-P 6125 1750
-F 0 "#PWR082" H 6125 1500 50  0001 C CNN
-F 1 "GND" H 6125 1625 28  0000 C CNN
-F 2 "" H 6125 1750 50  0001 C CNN
-F 3 "" H 6125 1750 50  0001 C CNN
-	1    6125 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6125 1750 6125 1700
-Wire Wire Line
-	5800 2100 5725 2100
-Wire Wire Line
-	5725 2100 5725 2525
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR083
-U 1 1 5D8E7920
-P 6475 2825
-F 0 "#PWR083" H 6475 2575 50  0001 C CNN
-F 1 "GND" H 6480 2669 28  0000 C CNN
-F 2 "" H 6475 2825 50  0001 C CNN
-F 3 "" H 6475 2825 50  0001 C CNN
-	1    6475 2825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6475 2825 6475 2775
-Wire Wire Line
-	6475 2275 6475 2225
-Wire Wire Line
-	6475 2025 6475 2000
-Wire Wire Line
-	6475 2000 6400 2000
-Connection ~ 6475 2000
-Text Notes 5575 1075 0    39   ~ 8
-Scale 3.3V DAC output to 10V
-$Comp
 L Radar-v2-rescue:ADF4158-ADF4158-Radar-RF-rescue-Radar-v2-rescue U8
 U 1 1 5D8EE643
 P 3275 2200
@@ -458,17 +358,6 @@ $EndComp
 Wire Wire Line
 	4075 2150 4325 2150
 $Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R75
-U 1 1 5D988F0A
-P 5475 1775
-F 0 "R75" H 5475 1825 20  0000 C CNB
-F 1 "DNP" H 5475 1775 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 5475 1775 50  0001 C CNN
-F 3 "" V 5475 1775 50  0001 C CNN
-	1    5475 1775
-	0    1    1    0   
-$EndComp
-$Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C57
 U 1 1 5D98FE4E
 P 5100 2050
@@ -479,10 +368,6 @@ F 3 "" H 5100 2050 50  0001 C CNN
 	1    5100 2050
 	1    0    0    -1  
 $EndComp
-Text Notes 5575 1150 0    39   ~ 8
-Scale 5V PLL output to 10V
-Text Notes 5575 1300 0    39   ~ 8
-If DAC will be used\nchange R35(0) with 4.7K to make gain 3
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR077
 U 1 1 5D9AFF83
@@ -507,20 +392,6 @@ F 3 "" V 5325 1900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5100 2150 5100 2100
-Wire Wire Line
-	5425 1900 5475 1900
-Wire Wire Line
-	5475 1875 5475 1900
-Connection ~ 5475 1900
-Wire Wire Line
-	5475 1900 5800 1900
-Wire Wire Line
-	6475 2475 6475 2525
-Wire Wire Line
-	6475 2525 5725 2525
-Connection ~ 6475 2525
-Wire Wire Line
-	6475 2525 6475 2575
 $Comp
 L Radar-v2-rescue:HMC431LP4-HMC431LP4-Radar-RF-rescue-Radar-v2-rescue U17
 U 1 1 5D9E3E77
@@ -581,19 +452,6 @@ Connection ~ 7675 1425
 Wire Wire Line
 	7675 1425 7750 1425
 $Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R38
-U 1 1 5D9F879B
-P 6825 2000
-F 0 "R38" H 6825 2050 20  0000 C CNB
-F 1 "100K" H 6825 2000 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 6825 2000 50  0001 C CNN
-F 3 "" V 6825 2000 50  0001 C CNN
-	1    6825 2000
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6475 2000 6725 2000
-$Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C65
 U 1 1 5D9FC5A1
 P 7000 2100
@@ -618,11 +476,7 @@ $EndComp
 Wire Wire Line
 	7000 2200 7000 2150
 Wire Wire Line
-	6925 2000 7000 2000
-Wire Wire Line
 	7000 2000 7000 2050
-Text Notes 6550 1925 0    39   ~ 8
-RC filter makes it noisy. \nI just placed 100K series resistor\nto filter noise.
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR095
 U 1 1 5DA173E2
@@ -664,229 +518,9 @@ Wire Wire Line
 Wire Wire Line
 	4075 2350 4600 2350
 Text Notes 4075 2350 0    39   ~ 8
-Max 0dBm\n-4dBm input
-Text Notes 9765 2685 0    39   ~ 8
--4dBm\n
+Max 0dBm\n-8dBm input
 Text Notes 9650 2450 0    39   ~ 8
--4dBm\n
-$Comp
-L Radar-v2-rescue:TQP5523-TQP5523-Radar-RF-rescue-Radar-v2-rescue U21
-U 1 1 5D7DA50A
-P 11775 2225
-F 0 "U21" H 12175 2725 50  0000 L CNN
-F 1 "TQP5523" H 11600 2225 50  0000 L CNN
-F 2 "Footprints:QFN20_4x4mm_P0.5mm_1EXP_2.5x2.5mm" H 11825 2275 50  0001 C CNN
-F 3 "" H 11825 2275 50  0001 C CNN
-	1    11775 2225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C82
-U 1 1 5D8CF6C8
-P 11000 2325
-F 0 "C82" V 10975 2275 20  0000 C CNB
-F 1 "1nF" H 11000 2325 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 11000 2325 50  0001 C CNN
-F 3 "" H 11000 2325 50  0001 C CNN
-	1    11000 2325
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0112
-U 1 1 5D8D1168
-P 11825 2875
-F 0 "#PWR0112" H 11825 2625 50  0001 C CNN
-F 1 "GND" H 11830 2719 28  0000 C CNN
-F 2 "" H 11825 2875 50  0001 C CNN
-F 3 "" H 11825 2875 50  0001 C CNN
-	1    11825 2875
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11425 2775 11425 2875
-Wire Wire Line
-	11425 2875 11525 2875
-Wire Wire Line
-	11525 2775 11525 2875
-Connection ~ 11525 2875
-Wire Wire Line
-	11525 2875 11625 2875
-Wire Wire Line
-	11625 2775 11625 2875
-Connection ~ 11625 2875
-Wire Wire Line
-	11625 2875 11725 2875
-Wire Wire Line
-	11825 2875 11925 2875
-Wire Wire Line
-	12225 2875 12225 2775
-Connection ~ 11825 2875
-Wire Wire Line
-	12125 2775 12125 2875
-Connection ~ 12125 2875
-Wire Wire Line
-	12125 2875 12225 2875
-Wire Wire Line
-	12025 2775 12025 2875
-Connection ~ 12025 2875
-Wire Wire Line
-	12025 2875 12125 2875
-Wire Wire Line
-	11925 2775 11925 2875
-Connection ~ 11925 2875
-Wire Wire Line
-	11925 2875 12025 2875
-Wire Wire Line
-	11825 2775 11825 2875
-Wire Wire Line
-	11725 2775 11725 2875
-Connection ~ 11725 2875
-Wire Wire Line
-	11725 2875 11825 2875
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R57
-U 1 1 5D8F8F1A
-P 11525 1400
-F 0 "R57" V 11525 1300 20  0000 L CNB
-F 1 "0 to 27" H 11450 1400 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 11525 1400 50  0001 C CNN
-F 3 "" V 11525 1400 50  0001 C CNN
-	1    11525 1400
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C85
-U 1 1 5D8FAD43
-P 11425 1550
-F 0 "C85" H 11450 1600 20  0000 L CNB
-F 1 "100nF" H 11375 1550 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 11425 1550 50  0001 C CNN
-F 3 "" H 11425 1550 50  0001 C CNN
-	1    11425 1550
-	0    1    1    0   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0110
-U 1 1 5D8FBA3F
-P 11350 1550
-F 0 "#PWR0110" H 11350 1300 50  0001 C CNN
-F 1 "GND" H 11350 1425 28  0000 C CNN
-F 2 "" H 11350 1550 50  0001 C CNN
-F 3 "" H 11350 1550 50  0001 C CNN
-	1    11350 1550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11525 1675 11525 1550
-Wire Wire Line
-	11525 1550 11475 1550
-Connection ~ 11525 1550
-Wire Wire Line
-	11525 1550 11525 1500
-Wire Wire Line
-	11375 1550 11350 1550
-Wire Wire Line
-	11525 1300 11525 1250
-Wire Wire Line
-	11775 1675 11775 1250
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C87
-U 1 1 5D92ABEA
-P 11875 1375
-F 0 "C87" H 11900 1425 20  0000 L CNB
-F 1 "100nF" H 11825 1375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 11875 1375 50  0001 C CNN
-F 3 "" H 11875 1375 50  0001 C CNN
-	1    11875 1375
-	-1   0    0    1   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0115
-U 1 1 5D92B43E
-P 11875 1450
-F 0 "#PWR0115" H 11875 1200 50  0001 C CNN
-F 1 "GND" H 11875 1325 28  0000 C CNN
-F 2 "" H 11875 1450 50  0001 C CNN
-F 3 "" H 11875 1450 50  0001 C CNN
-	1    11875 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C88
-U 1 1 5D931657
-P 12125 1375
-F 0 "C88" H 12150 1425 20  0000 L CNB
-F 1 "100nF" H 12075 1375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 12125 1375 50  0001 C CNN
-F 3 "" H 12125 1375 50  0001 C CNN
-	1    12125 1375
-	-1   0    0    1   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0116
-U 1 1 5D93175A
-P 12125 1450
-F 0 "#PWR0116" H 12125 1200 50  0001 C CNN
-F 1 "GND" H 12125 1325 28  0000 C CNN
-F 2 "" H 12125 1450 50  0001 C CNN
-F 3 "" H 12125 1450 50  0001 C CNN
-	1    12125 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11525 1250 11775 1250
-Wire Wire Line
-	11875 1325 11875 1250
-Connection ~ 11775 1250
-Wire Wire Line
-	11875 1425 11875 1450
-Wire Wire Line
-	11775 1250 11875 1250
-Wire Wire Line
-	12025 1675 12025 1250
-Wire Wire Line
-	12025 1250 11875 1250
-Connection ~ 11875 1250
-Wire Wire Line
-	12125 1325 12125 1250
-Wire Wire Line
-	12125 1250 12025 1250
-Connection ~ 12025 1250
-Wire Wire Line
-	12125 1450 12125 1425
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C89
-U 1 1 5D993DF4
-P 12275 1375
-F 0 "C89" H 12300 1425 20  0000 L CNB
-F 1 "10uF" H 12225 1375 20  0000 L CNB
-F 2 "Footprints:SMD_0603" H 12275 1375 50  0001 C CNN
-F 3 "" H 12275 1375 50  0001 C CNN
-	1    12275 1375
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12275 1425 12275 1450
-Wire Wire Line
-	12275 1450 12125 1450
-Wire Wire Line
-	12275 1325 12275 1250
-Wire Wire Line
-	12275 1250 12125 1250
-Connection ~ 12125 1250
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0117
-U 1 1 5D9A0C42
-P 12425 1800
-F 0 "#PWR0117" H 12425 1550 50  0001 C CNN
-F 1 "GND" H 12425 1675 28  0000 C CNN
-F 2 "" H 12425 1800 50  0001 C CNN
-F 3 "" H 12425 1800 50  0001 C CNN
-	1    12425 1800
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	12425 1800 12425 1850
+-8dBm\n
 Wire Wire Line
 	1950 1800 1875 1800
 Wire Wire Line
@@ -913,346 +547,216 @@ L Radar-v2-rescue:SG-210STF-SG-210STF-Radar-RF-rescue-Radar-v2-rescue U6
 U 1 1 5D91A17C
 P 1575 1800
 F 0 "U6" H 1575 2044 39  0000 C CNN
-F 1 "SG-210STF" H 1575 1969 39  0000 C CNN
+F 1 "ECS-2033-300-BN" H 1575 1969 39  0000 C CNN
 F 2 "Footprints:Crystal_2.5x2mm" H 1575 1800 39  0001 C CNN
 F 3 "" H 1575 1800 39  0001 C CNN
 	1    1575 1800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R58
-U 1 1 5D99FC14
-P 12425 1950
-F 0 "R58" V 12425 1875 20  0000 L CNB
-F 1 "30K" H 12400 1950 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 12425 1950 50  0001 C CNN
-F 3 "" V 12425 1950 50  0001 C CNN
-	1    12425 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C90
-U 1 1 5DA34938
-P 12500 2325
-F 0 "C90" V 12475 2275 20  0000 C CNB
-F 1 "1nF" H 12500 2325 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 12500 2325 50  0001 C CNN
-F 3 "" H 12500 2325 50  0001 C CNN
-	1    12500 2325
-	0    1    1    0   
-$EndComp
-Text Notes 11650 1075 0    39   ~ 8
-29 to 37dB, typ. 32dB Gain\nOP1dB 31dBm\nPout = 22 to 27dBm\nPout = 21dBm 5V, 300mA
-$Comp
-L Radar-v2-rescue:ATTENUATOR_3Pin-ATTENUATOR_3Pin-Radar-RF-rescue-Radar-v2-rescue U19
-U 1 1 5DA5FC60
-P 10375 2425
-F 0 "U19" H 10375 2776 50  0000 C CNN
-F 1 "PAT1220-C-6DB" H 10375 2693 39  0000 C CNB
-F 2 "Footprints:PAT1220_6dB" H 10375 2425 50  0001 C CNN
-F 3 "" H 10125 2675 50  0001 C CNN
-	1    10375 2425
-	1    0    0    -1  
-$EndComp
 Text Notes 8975 2275 0    39   ~ 8
 WYE -6dBm resistive splitter\nZo/3 each apprx. 17 ohm
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0103
-U 1 1 5DA7FB2C
-P 10375 2775
-F 0 "#PWR0103" H 10375 2525 50  0001 C CNN
-F 1 "GND" H 10380 2619 28  0000 C CNN
-F 2 "" H 10375 2775 50  0001 C CNN
-F 3 "" H 10375 2775 50  0001 C CNN
-	1    10375 2775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10375 2775 10375 2725
-Wire Wire Line
-	10775 2325 10950 2325
-Text Notes 10850 2500 0    39   ~ 8
--10dBm\n
-Text Notes 10075 1375 0    39   ~ 8
-100mW rating
+Text Notes 10800 2300 0    39   ~ 8
+-8dBm\n
 $Comp
 L Radar-v2-rescue:SMA_Connector-SMA_Connector-Radar-RF-rescue-Radar-v2-rescue U30
 U 1 1 5D9B6F6D
-P 14500 2325
-F 0 "U30" H 14594 2348 20  0000 L CNB
-F 1 "SMA_Connector" H 14594 2303 20  0000 L CNB
-F 2 "Footprints:SMA_Connector" H 14340 2305 60  0001 C CNN
-F 3 "" H 14340 2305 60  0001 C CNN
-	1    14500 2325
+P 15500 2325
+F 0 "U30" H 15594 2348 20  0000 L CNB
+F 1 "SMA_Connector" H 15594 2303 20  0000 L CNB
+F 2 "Footprints:SMA_Connector" H 15340 2305 60  0001 C CNN
+F 3 "" H 15340 2305 60  0001 C CNN
+	1    15500 2325
 	1    0    0    -1  
 $EndComp
-Text Notes 14575 2200 0    39   ~ 8
+Text Notes 15575 2200 0    39   ~ 8
 TX ANTENNA
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0121
 U 1 1 5D9C0789
-P 14500 2500
-F 0 "#PWR0121" H 14500 2250 50  0001 C CNN
-F 1 "GND" H 14505 2344 28  0000 C CNN
-F 2 "" H 14500 2500 50  0001 C CNN
-F 3 "" H 14500 2500 50  0001 C CNN
-	1    14500 2500
+P 15500 2500
+F 0 "#PWR0121" H 15500 2250 50  0001 C CNN
+F 1 "GND" H 15505 2344 28  0000 C CNN
+F 2 "" H 15500 2500 50  0001 C CNN
+F 3 "" H 15500 2500 50  0001 C CNN
+	1    15500 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	14450 2425 14450 2500
+	15450 2425 15450 2500
 Wire Wire Line
-	14550 2425 14550 2500
+	15550 2425 15550 2500
 Wire Wire Line
-	14450 2225 14450 2150
+	15450 2225 15450 2150
 Wire Wire Line
-	14550 2225 14550 2150
+	15550 2225 15550 2150
 $Comp
 L Radar-v2-rescue:Directional_Coupler-Directional_Coupler-Radar-RF-rescue-Radar-v2-rescue U29
 U 1 1 5D9E8AA5
-P 13475 2600
-F 0 "U29" H 13475 3059 39  0000 C CNN
-F 1 "Directional_Coupler" H 13475 2992 28  0000 C CNB
-F 2 "Footprints:Directional_Coupler_15dB" H 13475 2600 39  0001 C CNN
-F 3 "" H 13475 2600 39  0001 C CNN
-	1    13475 2600
+P 14475 2600
+F 0 "U29" H 14475 3059 39  0000 C CNN
+F 1 "Directional_Coupler" H 14475 2992 28  0000 C CNB
+F 2 "Footprints:Directional_Coupler_15dB" H 14475 2600 39  0001 C CNN
+F 3 "" H 14475 2600 39  0001 C CNN
+	1    14475 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13125 2325 12550 2325
-Wire Wire Line
-	13825 2325 14350 2325
-Text Notes 13150 2100 0    39   ~ 8
+	14825 2325 15350 2325
+Text Notes 14150 2100 0    39   ~ 8
 16dB Directional Coupler
-Text Notes 13025 2700 0    39   ~ 8
+Text Notes 14025 2700 0    39   ~ 8
 -16dB
 $Comp
 L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R59
 U 1 1 5DA0EA37
-P 13650 2850
-F 0 "R59" V 13650 2900 20  0000 L CNB
-F 1 "50" V 13650 2825 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 13650 2850 50  0001 C CNN
-F 3 "" V 13650 2850 50  0001 C CNN
-	1    13650 2850
+P 14650 2850
+F 0 "R59" V 14650 2900 20  0000 L CNB
+F 1 "50" V 14650 2825 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 14650 2850 50  0001 C CNN
+F 3 "" V 14650 2850 50  0001 C CNN
+	1    14650 2850
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0119
 U 1 1 5DA0F299
-P 13650 3000
-F 0 "#PWR0119" H 13650 2750 50  0001 C CNN
-F 1 "GND" H 13655 2844 28  0000 C CNN
-F 2 "" H 13650 3000 50  0001 C CNN
-F 3 "" H 13650 3000 50  0001 C CNN
-	1    13650 3000
+P 14650 3000
+F 0 "#PWR0119" H 14650 2750 50  0001 C CNN
+F 1 "GND" H 14655 2844 28  0000 C CNN
+F 2 "" H 14650 3000 50  0001 C CNN
+F 3 "" H 14650 3000 50  0001 C CNN
+	1    14650 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13650 3000 13650 2950
+	14650 3000 14650 2950
 Wire Wire Line
-	13650 2750 13650 2700
+	14650 2750 14650 2700
 Wire Wire Line
-	13300 2700 13300 2950
+	14300 2700 14300 2950
 $Comp
 L Radar-v2-rescue:ATTENUATOR_3Pin-ATTENUATOR_3Pin-Radar-RF-rescue-Radar-v2-rescue U27
 U 1 1 5DA26228
-P 13200 3350
-F 0 "U27" H 13200 3701 50  0000 C CNN
-F 1 "PAT1220-C-6DB" H 13200 3618 39  0000 C CNB
-F 2 "Footprints:PAT1220_6dB" H 13200 3350 50  0001 C CNN
-F 3 "" H 12950 3600 50  0001 C CNN
-	1    13200 3350
+P 14200 3350
+F 0 "U27" H 14200 3701 50  0000 C CNN
+F 1 "PAT1220-C-8DB-T5" H 14200 3618 39  0000 C CNB
+F 2 "Footprints:PAT1220_6dB" H 14200 3350 50  0001 C CNN
+F 3 "" H 13950 3600 50  0001 C CNN
+	1    14200 3350
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0118
 U 1 1 5DA28780
-P 12825 3350
-F 0 "#PWR0118" H 12825 3100 50  0001 C CNN
-F 1 "GND" V 12830 3222 28  0000 R CNN
-F 2 "" H 12825 3350 50  0001 C CNN
-F 3 "" H 12825 3350 50  0001 C CNN
-	1    12825 3350
+P 13825 3350
+F 0 "#PWR0118" H 13825 3100 50  0001 C CNN
+F 1 "GND" V 13830 3222 28  0000 R CNN
+F 2 "" H 13825 3350 50  0001 C CNN
+F 3 "" H 13825 3350 50  0001 C CNN
+	1    13825 3350
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12900 3350 12825 3350
-Text GLabel 14200 4250 2    39   Input ~ 8
+	13900 3350 13825 3350
+Text GLabel 15200 4250 2    39   Input ~ 8
 MIXER_LO
-Text Notes 12175 3850 0    39   ~ 8
-Pout = 6 to 11 dBm - 6 dB\n      = 0 to 5 dBm
-Text Notes 12400 2975 0    39   ~ 8
-Pout = 22 to 27dBm - 16dB\n      = 6 to 11 dBm\n
+Text Notes 13175 3850 0    39   ~ 8
+Pout = 8 to 18 dBm - 8dB\n      = 0 to 10 dBm
+Text Notes 12900 2175 0    39   ~ 8
+Pout = 32 to 42dBm - 8dB\n      = 24 to 34 dBm\n
 $Comp
 L Radar-v2-rescue:SMA_Connector-SMA_Connector-Radar-RF-rescue-Radar-v2-rescue U22
 U 1 1 5DA3BBAB
-P 12875 5900
-F 0 "U22" H 12969 5923 20  0000 L CNB
-F 1 "SMA_Connector" H 12969 5878 20  0000 L CNB
-F 2 "Footprints:SMA_Connector" H 12715 5880 60  0001 C CNN
-F 3 "" H 12715 5880 60  0001 C CNN
-	1    12875 5900
+P 13000 6050
+F 0 "U22" H 13094 6073 20  0000 L CNB
+F 1 "SMA_Connector" H 13094 6028 20  0000 L CNB
+F 2 "Footprints:SMA_Connector" H 12840 6030 60  0001 C CNN
+F 3 "" H 12840 6030 60  0001 C CNN
+	1    13000 6050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0114
 U 1 1 5DA3CC86
-P 12875 6075
-F 0 "#PWR0114" H 12875 5825 50  0001 C CNN
-F 1 "GND" H 12880 5919 28  0000 C CNN
-F 2 "" H 12875 6075 50  0001 C CNN
-F 3 "" H 12875 6075 50  0001 C CNN
-	1    12875 6075
+P 13000 6225
+F 0 "#PWR0114" H 13000 5975 50  0001 C CNN
+F 1 "GND" H 13005 6069 28  0000 C CNN
+F 2 "" H 13000 6225 50  0001 C CNN
+F 3 "" H 13000 6225 50  0001 C CNN
+	1    13000 6225
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0113
 U 1 1 5DA3D033
-P 12875 5725
-F 0 "#PWR0113" H 12875 5475 50  0001 C CNN
-F 1 "GND" H 12880 5569 28  0000 C CNN
-F 2 "" H 12875 5725 50  0001 C CNN
-F 3 "" H 12875 5725 50  0001 C CNN
-	1    12875 5725
+P 13000 5875
+F 0 "#PWR0113" H 13000 5625 50  0001 C CNN
+F 1 "GND" H 13005 5719 28  0000 C CNN
+F 2 "" H 13000 5875 50  0001 C CNN
+F 3 "" H 13000 5875 50  0001 C CNN
+	1    13000 5875
 	-1   0    0    1   
 $EndComp
-Text Notes 12950 5750 0    39   ~ 8
+Text Notes 13075 5900 0    39   ~ 8
 RX ANTENNA
 Wire Wire Line
-	12825 6075 12825 6000
+	12950 6225 12950 6150
 Wire Wire Line
-	12925 6075 12925 6000
+	13050 6225 13050 6150
 Wire Wire Line
-	12925 5800 12925 5725
+	13050 5950 13050 5875
 Wire Wire Line
-	12825 5800 12825 5725
-$Comp
-L Radar-v2-rescue:SKY65404-SKY65404-Radar-RF-rescue-Radar-v2-rescue U20
-U 1 1 5D96DDF6
-P 11500 5775
-F 0 "U20" H 11500 6125 50  0000 C CNN
-F 1 "SKY65404" H 11500 6034 50  0000 C CNN
-F 2 "Footprints:SKY65404_31" H 11500 5775 50  0001 C CNN
-F 3 "" H 11500 5775 50  0001 C CNN
-	1    11500 5775
-	1    0    0    -1  
-$EndComp
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R76
-U 1 1 5D978630
-P 10850 5650
-F 0 "R76" H 10850 5700 20  0000 C CNB
-F 1 "100" H 10850 5650 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 10850 5650 50  0001 C CNN
-F 3 "" V 10850 5650 50  0001 C CNN
-	1    10850 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10750 5650 10700 5650
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0102
-U 1 1 5D98B3BB
-P 11000 5775
-F 0 "#PWR0102" H 11000 5525 50  0001 C CNN
-F 1 "GND" V 11005 5647 28  0000 R CNN
-F 2 "" H 11000 5775 50  0001 C CNN
-F 3 "" H 11000 5775 50  0001 C CNN
-	1    11000 5775
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	11050 5775 11000 5775
+	12950 5950 12950 5875
 $Comp
 L Radar-v2-rescue:Inductor-Inductor-Radar-RF-rescue-Radar-v2-rescue L7
 U 1 1 5D994ADB
-P 12175 5500
-F 0 "L7" H 12175 5600 20  0000 C CNB
-F 1 "0.6nH" H 12175 5550 20  0000 C CNB
-F 2 "Footprints:SMD_0402" V 12195 5500 50  0001 C CNN
-F 3 "" V 12195 5500 50  0001 C CNN
-	1    12175 5500
+P 12300 5650
+F 0 "L7" H 12300 5750 20  0000 C CNB
+F 1 "0.6nH" H 12300 5700 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 12320 5650 50  0001 C CNN
+F 3 "" V 12320 5650 50  0001 C CNN
+	1    12300 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C84
 U 1 1 5D9953B7
-P 12350 5575
-F 0 "C84" H 12442 5598 20  0000 L CNB
-F 1 "100nF" H 12442 5553 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 12350 5575 50  0001 C CNN
-F 3 "" H 12350 5575 50  0001 C CNN
-	1    12350 5575
+P 12475 5725
+F 0 "C84" H 12567 5748 20  0000 L CNB
+F 1 "100nF" H 12567 5703 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 12475 5725 50  0001 C CNN
+F 3 "" H 12475 5725 50  0001 C CNN
+	1    12475 5725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11950 5650 12000 5650
-Wire Wire Line
-	12000 5650 12000 5500
-Wire Wire Line
-	12000 5500 12075 5500
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0109
 U 1 1 5D9B4005
-P 12350 5675
-F 0 "#PWR0109" H 12350 5425 50  0001 C CNN
-F 1 "GND" H 12355 5519 28  0000 C CNN
-F 2 "" H 12350 5675 50  0001 C CNN
-F 3 "" H 12350 5675 50  0001 C CNN
-	1    12350 5675
+P 12475 5825
+F 0 "#PWR0109" H 12475 5575 50  0001 C CNN
+F 1 "GND" H 12480 5669 28  0000 C CNN
+F 2 "" H 12475 5825 50  0001 C CNN
+F 3 "" H 12475 5825 50  0001 C CNN
+	1    12475 5825
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12350 5625 12350 5675
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0106
-U 1 1 5D9BD68D
-P 12000 5775
-F 0 "#PWR0106" H 12000 5525 50  0001 C CNN
-F 1 "GND" V 12005 5647 28  0000 R CNN
-F 2 "" H 12000 5775 50  0001 C CNN
-F 3 "" H 12000 5775 50  0001 C CNN
-	1    12000 5775
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	11950 5775 12000 5775
+	12475 5775 12475 5825
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C83
 U 1 1 5D9C720E
-P 12050 5975
-F 0 "C83" H 12142 5998 20  0000 L CNB
-F 1 "0.5pF" H 12142 5953 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 12050 5975 50  0001 C CNN
-F 3 "" H 12050 5975 50  0001 C CNN
-	1    12050 5975
-	1    0    0    -1  
+P 12300 6050
+F 0 "C83" H 12350 6000 20  0000 L CNB
+F 1 "1nF" H 12275 6050 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 12300 6050 50  0001 C CNN
+F 3 "" H 12300 6050 50  0001 C CNN
+	1    12300 6050
+	0    1    1    0   
 $EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0107
-U 1 1 5D9C7AE2
-P 12050 6075
-F 0 "#PWR0107" H 12050 5825 50  0001 C CNN
-F 1 "GND" H 12055 5919 28  0000 C CNN
-F 2 "" H 12050 6075 50  0001 C CNN
-F 3 "" H 12050 6075 50  0001 C CNN
-	1    12050 6075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	12050 6075 12050 6025
-Wire Wire Line
-	11950 5900 12050 5900
-Wire Wire Line
-	12050 5900 12050 5925
-Wire Wire Line
-	12725 5900 12050 5900
-Connection ~ 12050 5900
-Text Notes 11250 5050 0    39   ~ 8
-Max Input Power: 1dBm\nNF: 1dB\nGain: 12dB at 6GHz\nIIP3: 9 dBm\nIP1dB: -4 dBm
-Text Notes 12100 6125 0    39   ~ 8
-Max 1dBm input to LNA
+Text Notes 11200 5400 0    39   ~ 8
+Max Input Power: 2dBm\nNF: 1.05dB\nGain: 16.3dB at 450MHz\nIIP3: -6 dBm\nIP1dB: -15 dBm
+Text Notes 12225 6275 0    39   ~ 8
+Max 2dBm input to LNA
 $Comp
 L Radar-v2-rescue:ADL5801-TRF37A73-Radar-RF-rescue-Radar-RF-rescue-Radar-v2-rescue U9
 U 1 1 5DA07BE8
@@ -1267,279 +771,268 @@ $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C81
 U 1 1 5DA0AE38
-P 10450 5900
-F 0 "C81" V 10290 5900 20  0000 C CNB
-F 1 "1nF" V 10335 5900 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 10450 5900 50  0001 C CNN
-F 3 "" H 10450 5900 50  0001 C CNN
-	1    10450 5900
+P 10400 6150
+F 0 "C81" V 10240 6150 20  0000 C CNB
+F 1 "1nF" V 10285 6150 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10400 6150 50  0001 C CNN
+F 3 "" H 10400 6150 50  0001 C CNN
+	1    10400 6150
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0101
 U 1 1 5DA16650
-P 10075 6075
-F 0 "#PWR0101" H 10075 5825 50  0001 C CNN
-F 1 "GND" H 10080 5919 28  0000 C CNN
-F 2 "" H 10075 6075 50  0001 C CNN
-F 3 "" H 10075 6075 50  0001 C CNN
-	1    10075 6075
+P 10025 6325
+F 0 "#PWR0101" H 10025 6075 50  0001 C CNN
+F 1 "GND" H 10030 6169 28  0000 C CNN
+F 2 "" H 10025 6325 50  0001 C CNN
+F 3 "" H 10025 6325 50  0001 C CNN
+	1    10025 6325
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10075 6075 10075 6050
+	10025 6325 10025 6300
 Wire Wire Line
-	10075 6050 10025 6050
+	10025 6300 9975 6300
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR099
 U 1 1 5DA20DAE
-P 9825 6400
-F 0 "#PWR099" H 9825 6150 50  0001 C CNN
-F 1 "GND" H 9830 6244 28  0000 C CNN
-F 2 "" H 9825 6400 50  0001 C CNN
-F 3 "" H 9825 6400 50  0001 C CNN
-	1    9825 6400
+P 9775 6650
+F 0 "#PWR099" H 9775 6400 50  0001 C CNN
+F 1 "GND" H 9780 6494 28  0000 C CNN
+F 2 "" H 9775 6650 50  0001 C CNN
+F 3 "" H 9775 6650 50  0001 C CNN
+	1    9775 6650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 6300 9600 6400
+	9550 6550 9550 6650
 Wire Wire Line
-	9825 6400 9825 6300
+	9775 6650 9775 6550
 Wire Wire Line
-	9825 6400 9750 6400
+	9775 6650 9700 6650
 Wire Wire Line
-	9750 6400 9750 6300
+	9700 6650 9700 6550
 Wire Wire Line
-	9600 6400 9675 6400
-Connection ~ 9750 6400
+	9550 6650 9625 6650
+Connection ~ 9700 6650
 Wire Wire Line
-	9675 6300 9675 6400
-Connection ~ 9675 6400
+	9625 6550 9625 6650
+Connection ~ 9625 6650
 Wire Wire Line
-	9675 6400 9750 6400
+	9625 6650 9700 6650
 Wire Wire Line
-	9525 6300 9525 6400
+	9475 6550 9475 6650
 Wire Wire Line
-	9525 6400 9600 6400
-Connection ~ 9600 6400
+	9475 6650 9550 6650
+Connection ~ 9550 6650
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C86
 U 1 1 5DA97DB7
-P 12625 5575
-F 0 "C86" H 12717 5598 20  0000 L CNB
-F 1 "100nF" H 12717 5553 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 12625 5575 50  0001 C CNN
-F 3 "" H 12625 5575 50  0001 C CNN
-	1    12625 5575
+P 12750 5725
+F 0 "C86" H 12842 5748 20  0000 L CNB
+F 1 "100nF" H 12842 5703 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 12750 5725 50  0001 C CNN
+F 3 "" H 12750 5725 50  0001 C CNN
+	1    12750 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	12625 5525 12625 5500
+	12750 5675 12750 5650
 Wire Wire Line
-	12625 5625 12625 5675
+	12750 5775 12750 5825
 Wire Wire Line
-	12625 5675 12350 5675
-Text Notes 9250 4875 0    39   ~ 8
-Max Input Power: 10 dBm\nNF: 4.0 dB\nGain: 11 dB at 6 GHz\nOIP3: 23 dBm\nOP1dB: 12 dBm\n
+	12750 5825 12475 5825
+Text Notes 9200 5125 0    39   ~ 8
+Max Input Power: 10 dBm\nNF: 4.0 dB\nGain: 13 dB at 450MHz\nOIP3: 23 dBm\nOP1dB: 12 dBm\n
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C79
 U 1 1 5DABAF32
-P 9850 5375
-F 0 "C79" H 9875 5425 20  0000 L CNB
-F 1 "100pF" H 9825 5375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 9850 5375 50  0001 C CNN
-F 3 "" H 9850 5375 50  0001 C CNN
-	1    9850 5375
+P 9800 5625
+F 0 "C79" H 9825 5675 20  0000 L CNB
+F 1 "100pF" H 9775 5625 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 9800 5625 50  0001 C CNN
+F 3 "" H 9800 5625 50  0001 C CNN
+	1    9800 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C80
 U 1 1 5DABB79C
-P 10025 5375
-F 0 "C80" H 10050 5425 20  0000 L CNB
-F 1 "100nF" H 10000 5375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 10025 5375 50  0001 C CNN
-F 3 "" H 10025 5375 50  0001 C CNN
-	1    10025 5375
+P 9975 5625
+F 0 "C80" H 10000 5675 20  0000 L CNB
+F 1 "100nF" H 9950 5625 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 9975 5625 50  0001 C CNN
+F 3 "" H 9975 5625 50  0001 C CNN
+	1    9975 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0100
 U 1 1 5DABE155
-P 10025 5475
-F 0 "#PWR0100" H 10025 5225 50  0001 C CNN
-F 1 "GND" H 10025 5350 28  0000 C CNN
-F 2 "" H 10025 5475 50  0001 C CNN
-F 3 "" H 10025 5475 50  0001 C CNN
-	1    10025 5475
+P 9975 5725
+F 0 "#PWR0100" H 9975 5475 50  0001 C CNN
+F 1 "GND" H 9975 5600 28  0000 C CNN
+F 2 "" H 9975 5725 50  0001 C CNN
+F 3 "" H 9975 5725 50  0001 C CNN
+	1    9975 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10025 5475 10025 5425
+	9975 5725 9975 5675
 Wire Wire Line
-	9850 5425 9850 5475
+	9800 5675 9800 5725
 Wire Wire Line
-	9850 5475 10025 5475
+	9800 5725 9975 5725
 $Comp
 L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L5
 U 1 1 5DAD75DE
-P 9075 5225
-F 0 "L5" H 9075 5325 20  0000 C CNB
-F 1 "BLM18PG181SN1D" H 9075 5275 20  0000 C CNB
-F 2 "Footprints:SMD_0603" V 9095 5215 50  0001 C CNN
-F 3 "" V 9095 5215 50  0001 C CNN
-	1    9075 5225
+P 9025 5475
+F 0 "L5" H 9025 5575 20  0000 C CNB
+F 1 "BLM18PG181SN1D" H 9025 5525 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 9045 5465 50  0001 C CNN
+F 3 "" V 9045 5465 50  0001 C CNN
+	1    9025 5475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 5225 9850 5325
+	9800 5475 9800 5575
 Wire Wire Line
-	9850 5225 10025 5225
+	9800 5475 9975 5475
 Wire Wire Line
-	10025 5225 10025 5325
-Connection ~ 9850 5225
+	9975 5475 9975 5575
+Connection ~ 9800 5475
 Wire Wire Line
-	9675 5675 9675 5225
-Connection ~ 9675 5225
+	9625 5925 9625 5475
+Connection ~ 9625 5475
 Wire Wire Line
-	9675 5225 9850 5225
+	9625 5475 9800 5475
 $Comp
 L Radar-v2-rescue:Inductor-Inductor-Radar-RF-rescue-Radar-v2-rescue L6
 U 1 1 5DB0A21E
-P 9225 5650
-F 0 "L6" V 9248 5606 20  0000 R CNB
-F 1 "LQW18ANR10J00D" H 9375 5625 20  0000 R CNB
-F 2 "Footprints:SMD_0603" V 9245 5650 50  0001 C CNN
-F 3 "" V 9245 5650 50  0001 C CNN
-	1    9225 5650
+P 9175 5900
+F 0 "L6" V 9198 5856 20  0000 R CNB
+F 1 "LQW18ANR10J00D" H 9325 5875 20  0000 R CNB
+F 2 "Footprints:SMD_0603" V 9195 5900 50  0001 C CNN
+F 3 "" V 9195 5900 50  0001 C CNN
+	1    9175 5900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C76
 U 1 1 5DB0B5C5
-P 9575 5375
-F 0 "C76" H 9600 5425 20  0000 L CNB
-F 1 "10pF" H 9550 5375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 9575 5375 50  0001 C CNN
-F 3 "" H 9575 5375 50  0001 C CNN
-	1    9575 5375
+P 9525 5625
+F 0 "C76" H 9550 5675 20  0000 L CNB
+F 1 "10pF" H 9500 5625 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 9525 5625 50  0001 C CNN
+F 3 "" H 9525 5625 50  0001 C CNN
+	1    9525 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C75
 U 1 1 5DB0B79E
-P 9425 5375
-F 0 "C75" H 9450 5425 20  0000 L CNB
-F 1 "10nF" H 9400 5375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 9425 5375 50  0001 C CNN
-F 3 "" H 9425 5375 50  0001 C CNN
-	1    9425 5375
+P 9375 5625
+F 0 "C75" H 9400 5675 20  0000 L CNB
+F 1 "10nF" H 9350 5625 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 9375 5625 50  0001 C CNN
+F 3 "" H 9375 5625 50  0001 C CNN
+	1    9375 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR094
 U 1 1 5DB25424
-P 9425 5475
-F 0 "#PWR094" H 9425 5225 50  0001 C CNN
-F 1 "GND" H 9425 5350 28  0000 C CNN
-F 2 "" H 9425 5475 50  0001 C CNN
-F 3 "" H 9425 5475 50  0001 C CNN
-	1    9425 5475
+P 9375 5725
+F 0 "#PWR094" H 9375 5475 50  0001 C CNN
+F 1 "GND" H 9375 5600 28  0000 C CNN
+F 2 "" H 9375 5725 50  0001 C CNN
+F 3 "" H 9375 5725 50  0001 C CNN
+	1    9375 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9425 5475 9425 5425
+	9375 5725 9375 5675
 Wire Wire Line
-	9575 5425 9575 5475
+	9525 5675 9525 5725
 Wire Wire Line
-	9575 5475 9425 5475
+	9525 5725 9375 5725
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C72
 U 1 1 5DB40684
-P 9050 5975
-F 0 "C72" V 8890 5975 20  0000 C CNB
-F 1 "1nF" V 8935 5975 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 9050 5975 50  0001 C CNN
-F 3 "" H 9050 5975 50  0001 C CNN
-	1    9050 5975
+P 9000 6225
+F 0 "C72" V 8840 6225 20  0000 C CNB
+F 1 "1nF" V 8885 6225 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 9000 6225 50  0001 C CNN
+F 3 "" H 9000 6225 50  0001 C CNN
+	1    9000 6225
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8975 5225 8950 5225
+	8925 5475 8900 5475
 Wire Wire Line
-	9325 5975 9225 5975
+	9275 6225 9175 6225
 Wire Wire Line
-	9225 5750 9225 5975
-Connection ~ 9225 5975
+	9175 6000 9175 6225
+Connection ~ 9175 6225
 Wire Wire Line
-	9225 5975 9100 5975
+	9175 6225 9050 6225
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C71
 U 1 1 5DB86706
-P 8950 5375
-F 0 "C71" H 8975 5425 20  0000 L CNB
-F 1 "DNP" H 8925 5375 20  0000 L CNB
-F 2 "Footprints:SMD_0402" H 8950 5375 50  0001 C CNN
-F 3 "" H 8950 5375 50  0001 C CNN
-	1    8950 5375
+P 8900 5625
+F 0 "C71" H 8925 5675 20  0000 L CNB
+F 1 "DNP" H 8875 5625 20  0000 L CNB
+F 2 "Footprints:SMD_0402" H 8900 5625 50  0001 C CNN
+F 3 "" H 8900 5625 50  0001 C CNN
+	1    8900 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR093
 U 1 1 5DB86906
-P 8950 5475
-F 0 "#PWR093" H 8950 5225 50  0001 C CNN
-F 1 "GND" H 8950 5350 28  0000 C CNN
-F 2 "" H 8950 5475 50  0001 C CNN
-F 3 "" H 8950 5475 50  0001 C CNN
-	1    8950 5475
+P 8900 5725
+F 0 "#PWR093" H 8900 5475 50  0001 C CNN
+F 1 "GND" H 8900 5600 28  0000 C CNN
+F 2 "" H 8900 5725 50  0001 C CNN
+F 3 "" H 8900 5725 50  0001 C CNN
+	1    8900 5725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8950 5475 8950 5425
+	8900 5725 8900 5675
 Wire Wire Line
-	8950 5325 8950 5225
-Connection ~ 8950 5225
-$Comp
-L Radar-v2-rescue:5400BL15B050E-Balun-Radar-RF-rescue-Radar-v2-rescue U13
-U 1 1 5DBA8EBD
-P 8175 5975
-F 0 "U13" H 8150 6219 39  0000 C CNN
-F 1 "5400BL15B050E" H 8150 6144 39  0000 C CNN
-F 2 "Footprints:Balun_5400BL15B050E" H 8175 5975 39  0001 C CNN
-F 3 "" H 8175 5975 39  0001 C CNN
-	1    8175 5975
-	1    0    0    -1  
-$EndComp
+	8900 5575 8900 5475
+Connection ~ 8900 5475
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C60
 U 1 1 5DBBA49E
-P 7700 5950
-F 0 "C60" V 7650 5900 20  0000 C CNB
-F 1 "10pF" H 7700 5950 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 7700 5950 50  0001 C CNN
-F 3 "" H 7700 5950 50  0001 C CNN
-	1    7700 5950
+P 7425 6200
+F 0 "C60" V 7375 6150 20  0000 C CNB
+F 1 "10pF" H 7425 6200 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 7425 6200 50  0001 C CNN
+F 3 "" H 7425 6200 50  0001 C CNN
+	1    7425 6200
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C61
 U 1 1 5DBBA922
-P 7700 6125
-F 0 "C61" V 7650 6075 20  0000 C CNB
-F 1 "10pF" H 7700 6125 20  0000 C CNB
-F 2 "Footprints:SMD_0402" H 7700 6125 50  0001 C CNN
-F 3 "" H 7700 6125 50  0001 C CNN
-	1    7700 6125
+P 7425 6400
+F 0 "C61" V 7375 6350 20  0000 C CNB
+F 1 "10pF" H 7425 6400 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 7425 6400 50  0001 C CNN
+F 3 "" H 7425 6400 50  0001 C CNN
+	1    7425 6400
 	0    1    1    0   
 $EndComp
 Text GLabel 2475 5875 0    39   Input ~ 8
 MIXER_LO
-Text Notes 7875 5650 0    39   ~ 8
+Text Notes 7825 5900 0    39   ~ 8
 -1dB Insertion Loss
-Text GLabel 7600 5950 0    39   Input ~ 8
+Text GLabel 7325 6200 0    39   Input ~ 8
 RFIN
-Text GLabel 7600 6125 0    39   Input ~ 8
+Text GLabel 7325 6400 0    39   Input ~ 8
 RFIP
 Text GLabel 4750 6025 2    39   Input ~ 8
 RFIN
@@ -1692,31 +1185,24 @@ F 3 "" H 3300 6025 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7825 5950 7750 5950
+	7550 6200 7475 6200
 Wire Wire Line
-	7650 5950 7600 5950
+	7375 6200 7325 6200
 Wire Wire Line
-	7825 6125 7750 6125
+	7550 6400 7475 6400
 Wire Wire Line
-	7650 6125 7600 6125
+	7375 6400 7325 6400
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR086
 U 1 1 5DDB9D40
-P 8250 6350
-F 0 "#PWR086" H 8250 6100 50  0001 C CNN
-F 1 "GND" H 8255 6194 28  0000 C CNN
-F 2 "" H 8250 6350 50  0001 C CNN
-F 3 "" H 8250 6350 50  0001 C CNN
-	1    8250 6350
-	1    0    0    -1  
+P 8350 6200
+F 0 "#PWR086" H 8350 5950 50  0001 C CNN
+F 1 "GND" H 8355 6044 28  0000 C CNN
+F 2 "" H 8350 6200 50  0001 C CNN
+F 3 "" H 8350 6200 50  0001 C CNN
+	1    8350 6200
+	-1   0    0    1   
 $EndComp
-NoConn ~ 8175 6275
-Wire Wire Line
-	8250 6275 8250 6350
-Wire Wire Line
-	8325 6275 8325 6350
-Wire Wire Line
-	8325 6350 8250 6350
 Wire Wire Line
 	3250 6025 3175 6025
 Wire Wire Line
@@ -2238,38 +1724,21 @@ $EndComp
 Text Notes 2925 1025 0    39   ~ 8
 Idd = 32mA max
 Text Notes 7800 2250 0    39   ~ 8
-Pout 2dBm\n@3v, 27mA
-Wire Wire Line
-	11050 2325 11150 2325
-Wire Wire Line
-	12450 2325 12400 2325
-Wire Wire Line
-	12400 2075 12425 2075
-Wire Wire Line
-	12425 2075 12425 2050
-Wire Wire Line
-	11425 2875 11325 2875
-Wire Wire Line
-	11325 2875 11325 2775
-Connection ~ 11425 2875
-Text Notes 9675 1250 0    39   ~ 8
-PI Type Attenuator Network\n1 and 2 can be both in/out, directionless
-Text Notes 11250 5275 0    39   ~ 8
-@3.0 max 15mA
+Pout -2dBm\n@3v, 27mA
+Text Notes 11200 5525 0    39   ~ 8
+@3.3 max 16mA
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0104
 U 1 1 5DE791D1
-P 11525 6100
-F 0 "#PWR0104" H 11525 5850 50  0001 C CNN
-F 1 "GND" H 11530 5944 28  0000 C CNN
-F 2 "" H 11525 6100 50  0001 C CNN
-F 3 "" H 11525 6100 50  0001 C CNN
-	1    11525 6100
+P 12000 6150
+F 0 "#PWR0104" H 12000 5900 50  0001 C CNN
+F 1 "GND" H 12005 5994 28  0000 C CNN
+F 2 "" H 12000 6150 50  0001 C CNN
+F 3 "" H 12000 6150 50  0001 C CNN
+	1    12000 6150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11525 6100 11525 6050
-Text Notes 9200 5100 0    39   ~ 8
+Text Notes 9150 5350 0    39   ~ 8
 @5.0v, max 100mA
 Text Notes 3000 5050 0    39   ~ 8
 IIP3 28.5 dBm\nIP1dB 11dBm for 5-6GHz\nLO drive 0dBm\n@5v, max 200mA\ntyp 130mA
@@ -2744,11 +2213,11 @@ Wire Wire Line
 Wire Wire Line
 	3175 2975 3250 2975
 Wire Wire Line
-	14450 2500 14500 2500
+	15450 2500 15500 2500
 Wire Wire Line
-	12825 6075 12875 6075
+	12950 6225 13000 6225
 Wire Wire Line
-	12825 5725 12875 5725
+	12950 5875 13000 5875
 Wire Wire Line
 	3625 5750 3625 5825
 Wire Wire Line
@@ -2790,12 +2259,12 @@ F 3 "" H 9225 8875 39  0001 C CNN
 	4    9225 8675
 	1    0    0    1   
 $EndComp
-Connection ~ 12875 6075
+Connection ~ 13000 6225
 Wire Wire Line
-	12875 6075 12925 6075
-Connection ~ 12875 5725
+	13000 6225 13050 6225
+Connection ~ 13000 5875
 Wire Wire Line
-	12875 5725 12925 5725
+	13000 5875 13050 5875
 Connection ~ 4525 6650
 Wire Wire Line
 	4525 6650 4600 6650
@@ -2809,97 +2278,57 @@ Wire Wire Line
 Connection ~ 3800 1425
 Wire Wire Line
 	3800 1425 3875 1425
-Connection ~ 11525 1250
 Wire Wire Line
-	14450 2150 14500 2150
+	15450 2150 15500 2150
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0120
 U 1 1 5D9CF00D
-P 14500 2150
-F 0 "#PWR0120" H 14500 1900 50  0001 C CNN
-F 1 "GND" H 14505 1994 28  0000 C CNN
-F 2 "" H 14500 2150 50  0001 C CNN
-F 3 "" H 14500 2150 50  0001 C CNN
-	1    14500 2150
+P 15500 2150
+F 0 "#PWR0120" H 15500 1900 50  0001 C CNN
+F 1 "GND" H 15505 1994 28  0000 C CNN
+F 2 "" H 15500 2150 50  0001 C CNN
+F 3 "" H 15500 2150 50  0001 C CNN
+	1    15500 2150
 	-1   0    0    1   
 $EndComp
-Connection ~ 14500 2150
+Connection ~ 15500 2150
 Wire Wire Line
-	14500 2150 14550 2150
-Connection ~ 14500 2500
+	15500 2150 15550 2150
+Connection ~ 15500 2500
 Wire Wire Line
-	14500 2500 14550 2500
+	15500 2500 15550 2500
 $Comp
 L Radar-v2-rescue:MITERED_BEND-Mitered_Bend-Radar-RF-rescue-Radar-v2-rescue U28
 U 1 1 5DC4F45C
-P 13950 3825
-F 0 "U28" H 13874 3730 20  0000 R CNB
-F 1 "MITERED_BEND" H 13874 3775 20  0000 R CNB
-F 2 "Footprints:Mitered_Bend_0.33mm_90" H 13950 3825 50  0001 C CNN
-F 3 "" H 13950 3825 50  0001 C CNN
-	1    13950 3825
+P 14950 3825
+F 0 "U28" H 14874 3730 20  0000 R CNB
+F 1 "MITERED_BEND" H 14874 3775 20  0000 R CNB
+F 2 "Footprints:Mitered_Bend_0.33mm_90" H 14950 3825 50  0001 C CNN
+F 3 "" H 14950 3825 50  0001 C CNN
+	1    14950 3825
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:MITERED_BEND-Mitered_Bend-Radar-RF-rescue-Radar-v2-rescue U23
 U 1 1 5DC51D29
-P 13950 4250
-F 0 "U23" H 14021 4394 20  0000 C CNB
-F 1 "MITERED_BEND" H 14021 4349 20  0000 C CNB
-F 2 "Footprints:Mitered_Bend_0.33mm_90" H 13950 4250 50  0001 C CNN
-F 3 "" H 13950 4250 50  0001 C CNN
-	1    13950 4250
+P 14950 4250
+F 0 "U23" H 15021 4394 20  0000 C CNB
+F 1 "MITERED_BEND" H 15021 4349 20  0000 C CNB
+F 2 "Footprints:Mitered_Bend_0.33mm_90" H 14950 4250 50  0001 C CNN
+F 3 "" H 14950 4250 50  0001 C CNN
+	1    14950 4250
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	14125 4250 14200 4250
+	15125 4250 15200 4250
 Wire Wire Line
-	13300 3825 13300 3750
-Connection ~ 8250 6350
-$Comp
-L Radar-v2-rescue:TLV172-TLV172-Radar-RF-rescue-Radar-v2-rescue U12
-U 1 1 5DE46E68
-P 6100 2000
-F 0 "U12" H 6200 2100 39  0000 L CNN
-F 1 "TLV172" H 6075 2000 39  0000 L CNN
-F 2 "Footprints:SC70_5" H 6000 1800 39  0001 L CNN
-F 3 "" H 6100 2200 39  0001 C CNN
-	1    6100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R56
-U 1 1 5DE4A4CB
-P 10975 2075
-F 0 "R56" H 10950 2025 20  0000 L CNB
-F 1 "1K" H 10950 2075 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 10975 2075 50  0001 C CNN
-F 3 "" V 10975 2075 50  0001 C CNN
-	1    10975 2075
-	-1   0    0    1   
-$EndComp
-$Comp
-L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0105
-U 1 1 5DE4BE97
-P 10875 2025
-F 0 "#PWR0105" H 10875 1775 50  0001 C CNN
-F 1 "GND" H 10880 1869 28  0000 C CNN
-F 2 "" H 10875 2025 50  0001 C CNN
-F 3 "" H 10875 2025 50  0001 C CNN
-	1    10875 2025
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10875 2025 10875 2075
-Connection ~ 12425 2075
+	14300 3825 14300 3750
 Text Notes 1975 3700 0    59   ~ 12
 ADF4158 is Freq. Synthesizer to form a PLL topology.\nIt requires a referance clock and an external VCO. It is not a PLL itself.\nIt is used to drive VCO in a way the user wants.\nSo it takes ref clock and VCO output and generates voltage \nthrough charge pump to generate the waveform wanted.(sawtooth etc.)
 Text Notes 2500 5575 0    39   ~ 8
 50 Ohm to 50 Ohm Balun\nfor Single to Differential 
-Text Notes 7800 5550 0    39   ~ 8
+Text Notes 7750 5800 0    39   ~ 8
 50 Ohm to 50 Ohm Balun\nfor Single to Differential 
-Text HLabel 5475 1525 1    39   Input ~ 8
-DAC_OUT1
 Text HLabel 2400 2000 0    39   Input ~ 8
 ADF_MUXOUT
 Text HLabel 2400 2150 0    39   Input ~ 8
@@ -2913,17 +2342,6 @@ ADF_DATA
 Text HLabel 2400 2600 0    39   Input ~ 8
 ADF_LE
 $Comp
-L Radar-v2-rescue:SolderPad_1_Circle-SolderPad_1_Circle U11
-U 1 1 5F6F5B48
-P 5250 1525
-F 0 "U11" H 5250 1650 20  0000 C CNB
-F 1 "Check_Point" H 5250 1600 20  0000 C CNB
-F 2 "Footprints:SolderPad_1_1.5mm_SMD_Circle" H 5250 1525 60  0001 C CNN
-F 3 "" H 5250 1525 60  0001 C CNN
-	1    5250 1525
-	1    0    0    -1  
-$EndComp
-$Comp
 L Radar-v2-rescue:SolderPad_1_Circle-SolderPad_1_Circle U10
 U 1 1 5F6F8142
 P 5100 1750
@@ -2934,15 +2352,6 @@ F 3 "" H 5100 1750 60  0001 C CNN
 	1    5100 1750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5475 1525 5475 1675
-Wire Wire Line
-	5350 1525 5475 1525
-Wire Wire Line
-	11075 2075 11150 2075
-Connection ~ 11075 2075
-Text HLabel 12700 2075 2    39   Input ~ 8
-DET_OUT
 Wire Wire Line
 	4075 1900 4875 1900
 Wire Wire Line
@@ -2995,44 +2404,29 @@ Wire Wire Line
 Wire Wire Line
 	7400 2000 7625 2000
 Connection ~ 7000 2000
-$Comp
-L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L8
-U 1 1 5FD643FE
-P 11375 1250
-F 0 "L8" H 11375 1350 20  0000 C CNB
-F 1 "BLM18PG181SN1D" H 11375 1300 20  0000 C CNB
-F 2 "Footprints:SMD_0603" V 11395 1240 50  0001 C CNN
-F 3 "" V 11395 1240 50  0001 C CNN
-	1    11375 1250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	11475 1250 11525 1250
+	12400 5650 12475 5650
 Wire Wire Line
-	11275 1250 11175 1250
+	12475 5675 12475 5650
+Connection ~ 12475 5650
 Wire Wire Line
-	12275 5500 12350 5500
-Wire Wire Line
-	12350 5525 12350 5500
-Connection ~ 12350 5500
-Wire Wire Line
-	12350 5500 12625 5500
+	12475 5650 12750 5650
 $Comp
 L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L9
 U 1 1 5FE3AE94
-P 12625 5325
-F 0 "L9" H 12625 5425 20  0000 C CNB
-F 1 "BLM18PG181SN1D" H 12625 5375 20  0000 C CNB
-F 2 "Footprints:SMD_0603" V 12645 5315 50  0001 C CNN
-F 3 "" V 12645 5315 50  0001 C CNN
-	1    12625 5325
+P 12750 5475
+F 0 "L9" H 12750 5575 20  0000 C CNB
+F 1 "BLM18PG181SN1D" H 12750 5525 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 12770 5465 50  0001 C CNN
+F 3 "" V 12770 5465 50  0001 C CNN
+	1    12750 5475
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	12625 5500 12625 5425
-Connection ~ 12625 5500
+	12750 5650 12750 5575
+Connection ~ 12750 5650
 Wire Wire Line
-	12625 5225 12625 5150
+	12750 5375 12750 5300
 Text HLabel 9900 8675 2    39   Input ~ 8
 IFF+
 Text HLabel 9900 9925 2    39   Input ~ 8
@@ -3044,28 +2438,10 @@ Connection ~ 3675 6700
 Connection ~ 3750 5450
 Connection ~ 4325 6475
 Connection ~ 5300 5775
-Connection ~ 9425 5475
-Connection ~ 9825 6400
-Connection ~ 10025 5475
-Connection ~ 12350 5675
-$Comp
-L Radar-v2-rescue:SolderPad_1_Circle-SolderPad_1_Circle U24
-U 1 1 6025E624
-P 12575 1950
-F 0 "U24" H 12575 2075 20  0000 C CNB
-F 1 "Check_Point" H 12575 2025 20  0000 C CNB
-F 2 "Footprints:SolderPad_1_1.5mm_SMD_Circle" H 12575 1950 60  0001 C CNN
-F 3 "" H 12575 1950 60  0001 C CNN
-	1    12575 1950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	12425 2075 12575 2075
-Wire Wire Line
-	12575 2050 12575 2075
-Connection ~ 12575 2075
-Wire Wire Line
-	12575 2075 12700 2075
+Connection ~ 9375 5725
+Connection ~ 9775 6650
+Connection ~ 9975 5725
+Connection ~ 12475 5825
 $Comp
 L Radar-v2-rescue:SolderPad_1_Circle-SolderPad_1_Circle U14
 U 1 1 602D49A3
@@ -3078,10 +2454,9 @@ F 3 "" H 7400 2175 60  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8825 5225 8950 5225
-Text Notes 9250 5000 0    39   ~ 8
+	8775 5475 8900 5475
+Text Notes 9200 5250 0    39   ~ 8
 4.5 to 5.25 range
-Connection ~ 12125 1450
 Wire Wire Line
 	7575 1250 7500 1250
 Wire Wire Line
@@ -3101,61 +2476,57 @@ Wire Wire Line
 Connection ~ 3875 1225
 Wire Wire Line
 	4150 1225 4225 1225
-Text Notes 11250 5150 0    39   ~ 8
-2.8 to 5.0 range
 $Comp
 L Radar-v2-rescue:TRF37A75-TRF37A75 U18
 U 1 1 609B99B4
-P 9675 6000
-F 0 "U18" H 9850 6300 39  0000 C CNN
-F 1 "TRF37A75" H 9450 6300 39  0000 C CNN
-F 2 "Footprints:WSON8_2x2mm_P0.5mm_1EXP_0.9x1.6mm" H 9675 6025 39  0001 C CNN
-F 3 "" H 9675 6025 39  0001 C CNN
-	1    9675 6000
+P 9625 6250
+F 0 "U18" H 9800 6550 39  0000 C CNN
+F 1 "TRF37A75" H 9400 6550 39  0000 C CNN
+F 2 "Footprints:WSON8_2x2mm_P0.5mm_1EXP_0.9x1.6mm" H 9625 6275 39  0001 C CNN
+F 3 "" H 9625 6275 39  0001 C CNN
+	1    9625 6250
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	9175 5225 9225 5225
+	9125 5475 9175 5475
 $Comp
 L Radar-v2-rescue:Resistor-Resistor R43
 U 1 1 60BCE2B4
-P 9225 5375
-F 0 "R43" V 9175 5425 20  0000 L CNB
-F 1 "1.8" V 9225 5350 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 9225 5375 50  0001 C CNN
-F 3 "" V 9225 5375 50  0001 C CNN
-	1    9225 5375
+P 9175 5625
+F 0 "R43" V 9125 5675 20  0000 L CNB
+F 1 "1.8" V 9175 5600 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 9175 5625 50  0001 C CNN
+F 3 "" V 9175 5625 50  0001 C CNN
+	1    9175 5625
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9225 5275 9225 5225
-Connection ~ 9225 5225
+	9175 5525 9175 5475
+Connection ~ 9175 5475
 Wire Wire Line
-	9225 5475 9225 5500
+	9175 5725 9175 5750
 Wire Wire Line
-	9225 5225 9675 5225
+	9175 5475 9625 5475
 Wire Wire Line
-	9225 5500 9350 5500
+	9175 5750 9300 5750
 Wire Wire Line
-	9350 5500 9350 5275
+	9300 5750 9300 5525
 Wire Wire Line
-	9350 5275 9425 5275
+	9300 5525 9375 5525
 Wire Wire Line
-	9425 5275 9425 5325
-Connection ~ 9225 5500
+	9375 5525 9375 5575
+Connection ~ 9175 5750
 Wire Wire Line
-	9225 5500 9225 5550
+	9175 5750 9175 5800
 Wire Wire Line
-	9425 5275 9575 5275
+	9375 5525 9525 5525
 Wire Wire Line
-	9575 5275 9575 5325
-Connection ~ 9425 5275
+	9525 5525 9525 5575
+Connection ~ 9375 5525
 Wire Wire Line
 	5950 9925 6075 9925
 Text Notes 9025 2700 0    39   ~ 8
-+2dBm Output
-Wire Wire Line
-	9550 2325 9975 2325
+-2dBm Output
 Wire Wire Line
 	9550 2525 9550 2600
 Wire Wire Line
@@ -3172,17 +2543,13 @@ Wire Wire Line
 Wire Wire Line
 	7500 1250 7500 1750
 Wire Wire Line
-	13300 3825 13775 3825
+	14300 3825 14775 3825
 Wire Wire Line
-	13950 4000 13950 4075
-Text Label 12625 5500 0    39   ~ 0
-LNA_3.3
-Text Label 10700 5650 2    39   ~ 0
+	14950 4000 14950 4075
+Text Label 12750 5650 0    39   ~ 0
 LNA_3.3
 Wire Wire Line
-	10400 5900 10025 5900
-Wire Wire Line
-	10500 5900 11050 5900
+	10350 6150 9975 6150
 $Comp
 L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R52
 U 1 1 5DA1F5C9
@@ -3236,27 +2603,23 @@ Wire Wire Line
 Wire Wire Line
 	1700 2625 1475 2625
 Wire Wire Line
-	8855 5975 9000 5975
+	8805 6225 8950 6225
 Wire Wire Line
-	8850 5975 8855 5975
-Connection ~ 8855 5975
+	8800 6225 8805 6225
+Connection ~ 8805 6225
 $Comp
 L Radar-v2-rescue:MITERED_BEND_MIRRORED-Mitered_Bend_Mirrored U42
 U 1 1 5F14070F
-P 8825 5825
-F 0 "U42" H 8850 5900 20  0000 L CNB
-F 1 "MITERED_BEND" H 8625 5950 20  0000 L CNB
-F 2 "Footprints:Mitered_Bend_0.33mm_90" H 8855 5855 50  0001 C CNN
-F 3 "" H 8855 5855 50  0001 C CNN
-	1    8825 5825
+P 8775 6075
+F 0 "U42" H 8800 6150 20  0000 L CNB
+F 1 "MITERED_BEND" H 8575 6200 20  0000 L CNB
+F 2 "Footprints:Mitered_Bend_0.33mm_90" H 8805 6105 50  0001 C CNN
+F 3 "" H 8805 6105 50  0001 C CNN
+	1    8775 6075
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8675 5795 8525 5795
-Wire Wire Line
-	8525 5795 8525 5975
-Wire Wire Line
-	8525 5975 8475 5975
+	8625 6045 8475 6045
 $Comp
 L Radar-v2-rescue:MITERED_BEND_MIRRORED-Mitered_Bend_Mirrored U44
 U 1 1 5F476F2E
@@ -3292,80 +2655,66 @@ Wire Wire Line
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0166
 U 1 1 5F1549B6
-P 10475 1700
-F 0 "#PWR0166" H 10475 1450 50  0001 C CNN
-F 1 "GND" H 10480 1544 28  0000 C CNN
-F 2 "" H 10475 1700 50  0001 C CNN
-F 3 "" H 10475 1700 50  0001 C CNN
-	1    10475 1700
+P 9100 3925
+F 0 "#PWR0166" H 9100 3675 50  0001 C CNN
+F 1 "GND" H 9105 3769 28  0000 C CNN
+F 2 "" H 9100 3925 50  0001 C CNN
+F 3 "" H 9100 3925 50  0001 C CNN
+	1    9100 3925
 	0    1    1    0   
 $EndComp
 $Comp
 L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R79
 U 1 1 5F1550A0
-P 10625 1700
-F 0 "R79" H 10600 1650 20  0000 L CNB
-F 1 "1K" H 10600 1700 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 10625 1700 50  0001 C CNN
-F 3 "" V 10625 1700 50  0001 C CNN
-	1    10625 1700
+P 9250 3925
+F 0 "R79" H 9225 3875 20  0000 L CNB
+F 1 "1K" H 9225 3925 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 9250 3925 50  0001 C CNN
+F 3 "" V 9250 3925 50  0001 C CNN
+	1    9250 3925
 	-1   0    0    1   
 $EndComp
-Text HLabel 11075 1700 1    39   Input ~ 8
+Text HLabel 9700 3925 1    39   Input ~ 8
 PA_EN
 Wire Wire Line
-	10975 1700 11075 1700
+	9400 3925 9350 3925
 Wire Wire Line
-	11075 1700 11075 2075
-Wire Wire Line
-	10775 1700 10725 1700
-Wire Wire Line
-	10525 1700 10475 1700
+	9150 3925 9100 3925
 $Comp
 L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R80
 U 1 1 5F2DA922
-P 10625 5400
-F 0 "R80" H 10600 5350 20  0000 L CNB
-F 1 "1K" H 10600 5400 20  0000 L CNB
-F 2 "Footprints:SMD_0402" V 10625 5400 50  0001 C CNN
-F 3 "" V 10625 5400 50  0001 C CNN
-	1    10625 5400
+P 10575 5650
+F 0 "R80" H 10550 5600 20  0000 L CNB
+F 1 "1K" H 10550 5650 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 10575 5650 50  0001 C CNN
+F 3 "" V 10575 5650 50  0001 C CNN
+	1    10575 5650
 	-1   0    0    1   
 $EndComp
 $Comp
 L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR0167
 U 1 1 5F2DAEBC
-P 10475 5400
-F 0 "#PWR0167" H 10475 5150 50  0001 C CNN
-F 1 "GND" H 10480 5244 28  0000 C CNN
-F 2 "" H 10475 5400 50  0001 C CNN
-F 3 "" H 10475 5400 50  0001 C CNN
-	1    10475 5400
+P 10425 5650
+F 0 "#PWR0167" H 10425 5400 50  0001 C CNN
+F 1 "GND" H 10430 5494 28  0000 C CNN
+F 2 "" H 10425 5650 50  0001 C CNN
+F 3 "" H 10425 5650 50  0001 C CNN
+	1    10425 5650
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	11000 5400 10975 5400
+	10725 5650 10675 5650
 Wire Wire Line
-	10775 5400 10725 5400
-Wire Wire Line
-	10525 5400 10475 5400
-Wire Wire Line
-	10950 5650 11050 5650
-Wire Wire Line
-	10700 5650 10700 5550
-Wire Wire Line
-	10700 5550 11000 5550
-Wire Wire Line
-	11000 5550 11000 5400
+	10475 5650 10425 5650
 $Comp
 L Radar-v2-rescue:Led_Diode-Led D10
 U 1 1 5F2DA1E4
-P 10875 5400
-F 0 "D10" H 10875 5575 20  0000 C CNB
-F 1 "Led_Diode" H 10875 5625 20  0000 C CNB
-F 2 "Footprints:Diode_0603" V 10875 5400 50  0001 C CNN
-F 3 "" V 10875 5400 50  0001 C CNN
-	1    10875 5400
+P 10825 5650
+F 0 "D10" H 10825 5825 20  0000 C CNB
+F 1 "Led_Diode" H 10825 5875 20  0000 C CNB
+F 2 "Footprints:Diode_0603" V 10825 5650 50  0001 C CNN
+F 3 "" V 10825 5650 50  0001 C CNN
+	1    10825 5650
 	1    0    0    -1  
 $EndComp
 Text Notes 4225 1850 0    39   ~ 8
@@ -3373,12 +2722,12 @@ Text Notes 4225 1850 0    39   ~ 8
 $Comp
 L Radar-v2-rescue:Led_Diode-Led D9
 U 1 1 5F153D68
-P 10875 1700
-F 0 "D9" H 10875 1800 20  0000 C CNB
-F 1 "Led_Diode" H 10875 1850 20  0000 C CNB
-F 2 "Footprints:Diode_0603" V 10875 1700 50  0001 C CNN
-F 3 "" V 10875 1700 50  0001 C CNN
-	1    10875 1700
+P 9500 3925
+F 0 "D9" H 9500 4025 20  0000 C CNB
+F 1 "Led_Diode" H 9500 4075 20  0000 C CNB
+F 2 "Footprints:Diode_0603" V 9500 3925 50  0001 C CNN
+F 3 "" V 9500 3925 50  0001 C CNN
+	1    9500 3925
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3432,29 +2781,6 @@ F 3 "" H 2425 1175 50  0001 C CNN
 $EndComp
 Connection ~ 2425 1175
 $Comp
-L Radar-v2-rescue:+5-+5 #PWR053
-U 1 1 5FD3319F
-P 4225 1225
-F 0 "#PWR053" H 4225 1075 50  0001 C CNN
-F 1 "+5" H 4240 1416 39  0000 C CNN
-F 2 "" H 4225 1225 50  0001 C CNN
-F 3 "" H 4225 1225 50  0001 C CNN
-	1    4225 1225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Radar-v2-rescue:+10-+10 #PWR069
-U 1 1 5FD35516
-P 6000 1600
-F 0 "#PWR069" H 6000 1450 50  0001 C CNN
-F 1 "+10" H 6015 1791 39  0000 C CNN
-F 2 "" H 6000 1600 50  0001 C CNN
-F 3 "" H 6000 1600 50  0001 C CNN
-	1    6000 1600
-	1    0    0    -1  
-$EndComp
-Connection ~ 6000 1600
-$Comp
 L Radar-v2-rescue:+3.0-+3.0 #PWR078
 U 1 1 5FD378AD
 P 7150 1250
@@ -3466,36 +2792,25 @@ F 3 "" H 7150 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Radar-v2-rescue:+5-+5 #PWR096
-U 1 1 5FD3A07D
-P 11175 1250
-F 0 "#PWR096" H 11175 1100 50  0001 C CNN
-F 1 "+5" H 11190 1441 39  0000 C CNN
-F 2 "" H 11175 1250 50  0001 C CNN
-F 3 "" H 11175 1250 50  0001 C CNN
-	1    11175 1250
-	1    0    0    -1  
-$EndComp
-$Comp
 L Radar-v2-rescue:+3.3-+3.3 #PWR097
 U 1 1 5FD3C51F
-P 12625 5150
-F 0 "#PWR097" H 12625 5000 50  0001 C CNN
-F 1 "+3.3" H 12640 5341 39  0000 C CNN
-F 2 "" H 12625 5150 50  0001 C CNN
-F 3 "" H 12625 5150 50  0001 C CNN
-	1    12625 5150
+P 12750 5300
+F 0 "#PWR097" H 12750 5150 50  0001 C CNN
+F 1 "+3.3" H 12765 5491 39  0000 C CNN
+F 2 "" H 12750 5300 50  0001 C CNN
+F 3 "" H 12750 5300 50  0001 C CNN
+	1    12750 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Radar-v2-rescue:+5-+5 #PWR091
 U 1 1 5FD3E97C
-P 8825 5225
-F 0 "#PWR091" H 8825 5075 50  0001 C CNN
-F 1 "+5" H 8840 5416 39  0000 C CNN
-F 2 "" H 8825 5225 50  0001 C CNN
-F 3 "" H 8825 5225 50  0001 C CNN
-	1    8825 5225
+P 8775 5475
+F 0 "#PWR091" H 8775 5325 50  0001 C CNN
+F 1 "+5" H 8790 5666 39  0000 C CNN
+F 2 "" H 8775 5475 50  0001 C CNN
+F 3 "" H 8775 5475 50  0001 C CNN
+	1    8775 5475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3725,25 +3040,15 @@ Wire Wire Line
 	8050 8825 8050 8775
 Text Notes 10200 8650 0    39   ~ 8
 Sallen Key filter requires isolation resistor to prevent oscillation.\nThe capacitive load makes it unstable. To attenuate the peak value of\n1.4MHz oscillation i changed differential to single ended 1K to 100 Ohm\nand added gain.
-Text Notes 1300 1050 0    39   ~ 0
-Clock Oscillators\n2.5 mm x 2 mm\n30 MHz\n1.6/3.6V
 Text Notes 3850 950  0    39   ~ 0
 Ferrite Bead\nFor power supply high freq. filter
 Text Notes 1500 3500 0    39   ~ 0
 10MHz-6GHz\n2/7/3.3V\n23mA
-Text Notes 7600 900  0    39   ~ 0
-VCO Oscillators\n5.5 GHz to 6.1 GHz\n2.75/3.25V\n
-Text Notes 10250 3100 0    39   ~ 0
-Attenuator\nLoss 6dB
-Text Notes 12700 1050 0    39   ~ 0
-SKY65017-70LF\nRF Amplifier\n100 MHz to 6 GHz\nP1dB 20dBm\nGain 20dB\n5V\nNF 4.5dB\nOIP3 35dBm
-Text Notes 13700 3350 0    39   ~ 0
-Attenuator\nLoss 6dB
-Text Notes 2200 5000 0    39   ~ 0
+Text Notes 14700 3350 0    39   ~ 0
+Attenuator\nLoss 8dB
+Text Notes 2250 4925 0    39   ~ 0
 RF Mixer\n10 MHz to 6 GHz\nIF 10 MHz to 600 MHz
-Text Notes 11250 4600 0    39   ~ 0
-LNA\n4.9 GHz to 5.9 GHz\n2.8/5V
-Text Notes 10000 4800 0    39   ~ 0
+Text Notes 9200 4700 0    39   ~ 8
 Gain Block Amplifiers\n40 MHz to 6 GHz
 Text Notes 8400 1350 0    39   ~ 0
 MAX2620EUA+\nVCO Oscillators\nUMAX-8\n10 MHz to 1050 MHz\n2.7 V to 5.25 V\n-2dBm-6dBm ouput power\nVtune= 0.5V-3.0V
@@ -3755,26 +3060,8 @@ Wire Notes Line
 	8350 1450 8350 850 
 Wire Notes Line
 	8350 850  9100 850 
-Text Notes 11200 6950 0    39   ~ 0
-Low Noise Amplifiers\nBGU7032,115\n40 MHz to 1 GHz\nP1dB 14 dBm\nGain 10dB\n5V\nNF 4.5dB\n43mA\nOIP3 29dBm
-Wire Notes Line
-	11150 6400 12100 6400
-Wire Notes Line
-	12100 6400 12100 7050
-Wire Notes Line
-	12100 7050 11150 7050
-Wire Notes Line
-	11150 6400 11150 7050
-Text Notes 7900 6850 0    39   ~ 0
+Text Notes 7675 6850 0    39   ~ 0
 DXW21HN5011BL\nBalun\n100MHz- 1000MHz\n50Ohms
-Wire Notes Line
-	7800 6550 8550 6550
-Wire Notes Line
-	8550 6550 8550 7000
-Wire Notes Line
-	8550 7000 7800 7000
-Wire Notes Line
-	7800 7000 7800 6550
 Text Notes 2400 6750 0    39   ~ 0
 DXW21HN5011BL\nBalun\n100MHz- 1000MHz\n50Ohms
 Wire Notes Line
@@ -3785,16 +3072,993 @@ Wire Notes Line
 	3100 6900 2300 6900
 Wire Notes Line
 	2300 6900 2300 6450
-Wire Notes Line
-	12650 500  13300 500 
-Wire Notes Line
-	13300 500  13300 1200
-Wire Notes Line
-	13300 1200 12650 1200
-Wire Notes Line
-	12650 1200 12650 500 
-Text Notes 10100 3300 0    39   ~ 0
+Text Notes 9750 1950 0    39   ~ 0
 Attenuator not required 
-Text Notes 13500 1100 0    39   ~ 0
-CMX901QT8\nRF Amplifier 1W RF Power Amplifier\n130 MHz to 950 MHz\nGain 32dB\n6/2.5V\n
+Text Notes 12925 1325 0    39   ~ 8
+CMX901QT8\nRF Amplifier 1W RF Power Amplifier\n130 MHz to 950 MHz\nGain 42dB @435MHz\n6/2.5V\n2.2Amp\n
+Text Notes 4350 1200 0    39   Italic 0
+Changed this to 3 volt\nThis is tuning voltage
+Wire Notes Line
+	4350 1000 5050 1000
+Wire Notes Line
+	5050 1000 5050 1300
+Wire Notes Line
+	5050 1300 4350 1300
+Wire Notes Line
+	4350 1300 4350 1000
+Text Notes 5525 1775 0    39   ~ 0
+TLV172 not required as \ntuning voltage is upto 0.5-3.0V only
+Wire Notes Line
+	7550 1550 8400 1550
+Wire Notes Line
+	8400 1550 8400 2500
+Wire Notes Line
+	8400 2500 7550 2500
+Wire Notes Line
+	7550 2500 7550 1550
+Wire Notes Line
+	2500 5600 3250 5600
+Wire Notes Line
+	3250 5600 3250 6350
+Wire Notes Line
+	3250 6350 2500 6350
+Wire Notes Line
+	2500 6350 2500 5600
+$Comp
+L Radar-v2-rescue:+3.0-+3.0 #PWR?
+U 1 1 614DF7FB
+P 4225 1225
+F 0 "#PWR?" H 4225 1075 50  0001 C CNN
+F 1 "+3.0" H 4240 1416 39  0000 C CNN
+F 2 "" H 4225 1225 50  0001 C CNN
+F 3 "" H 4225 1225 50  0001 C CNN
+	1    4225 1225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1900 6800 2000
+Wire Wire Line
+	5425 1900 6800 1900
+Wire Wire Line
+	6800 2000 7000 2000
+$Comp
+L Rf_library:CMX901QT8 U?
+U 1 1 617E03DA
+P 12250 2425
+F 0 "U?" H 11925 2625 39  0000 L CNN
+F 1 "CMX901QT8" H 11750 2475 39  0000 L CNN
+F 2 "" H 11750 2525 39  0001 C CNN
+F 3 "" H 11750 2525 39  0001 C CNN
+	1    12250 2425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12600 2225 12650 2225
+Wire Wire Line
+	12650 2225 12650 2325
+Wire Wire Line
+	12650 2625 12600 2625
+Wire Wire Line
+	12600 2525 12650 2525
+Connection ~ 12650 2525
+Wire Wire Line
+	12650 2525 12650 2625
+Wire Wire Line
+	12600 2425 12650 2425
+Connection ~ 12650 2425
+Wire Wire Line
+	12650 2425 12650 2525
+Wire Wire Line
+	12600 2325 12650 2325
+Connection ~ 12650 2325
+Wire Wire Line
+	12650 2325 12650 2425
+Wire Wire Line
+	12650 2325 12775 2325
+Wire Wire Line
+	11150 2525 11075 2525
+Wire Wire Line
+	11075 2525 11075 2325
+Wire Wire Line
+	11075 2325 11150 2325
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 61997933
+P 11175 1675
+F 0 "#PWR?" H 11175 1425 50  0001 C CNN
+F 1 "GND" H 11180 1519 28  0000 C CNN
+F 2 "" H 11175 1675 50  0001 C CNN
+F 3 "" H 11175 1675 50  0001 C CNN
+	1    11175 1675
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11175 1675 11500 1675
+Wire Wire Line
+	11500 1675 11500 1725
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61A7B103
+P 10400 950
+F 0 "C?" V 10375 900 20  0000 C CNB
+F 1 "DNP" H 10400 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10400 950 50  0001 C CNN
+F 3 "" H 10400 950 50  0001 C CNN
+	1    10400 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61A7B2ED
+P 10600 950
+F 0 "C?" V 10575 900 20  0000 C CNB
+F 1 "1uF" H 10600 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10600 950 50  0001 C CNN
+F 3 "" H 10600 950 50  0001 C CNN
+	1    10600 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61AEC65E
+P 11275 950
+F 0 "C?" V 11250 900 20  0000 C CNB
+F 1 "DNP" H 11275 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 11275 950 50  0001 C CNN
+F 3 "" H 11275 950 50  0001 C CNN
+	1    11275 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61AEC79E
+P 11525 950
+F 0 "C?" V 11500 900 20  0000 C CNB
+F 1 "1uF" H 11525 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 11525 950 50  0001 C CNN
+F 3 "" H 11525 950 50  0001 C CNN
+	1    11525 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61AEC9EA
+P 12150 950
+F 0 "C?" V 12125 900 20  0000 C CNB
+F 1 "DNP" H 12150 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 12150 950 50  0001 C CNN
+F 3 "" H 12150 950 50  0001 C CNN
+	1    12150 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 61AECB28
+P 12400 950
+F 0 "C?" V 12375 900 20  0000 C CNB
+F 1 "1uF" H 12400 950 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 12400 950 50  0001 C CNN
+F 3 "" H 12400 950 50  0001 C CNN
+	1    12400 950 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 61AECC5E
+P 11025 950
+F 0 "R?" V 11025 875 20  0000 L CNB
+F 1 "DNP" H 11000 950 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 11025 950 50  0001 C CNN
+F 3 "" V 11025 950 50  0001 C CNN
+	1    11025 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 61AECDB0
+P 11875 950
+F 0 "R?" V 11875 875 20  0000 L CNB
+F 1 "DNP" H 11850 950 20  0000 L CNB
+F 2 "Footprints:SMD_0402" V 11875 950 50  0001 C CNN
+F 3 "" V 11875 950 50  0001 C CNN
+	1    11875 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L?
+U 1 1 61B5E6CB
+P 10825 950
+F 0 "L?" H 10825 1050 20  0000 C CNB
+F 1 "27nH" H 10825 1000 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 10845 940 50  0001 C CNN
+F 3 "" V 10845 940 50  0001 C CNN
+	1    10825 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L?
+U 1 1 61B5EBC9
+P 11725 950
+F 0 "L?" H 11725 1050 20  0000 C CNB
+F 1 "27nH" H 11725 1000 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 11745 940 50  0001 C CNN
+F 3 "" V 11745 940 50  0001 C CNN
+	1    11725 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L?
+U 1 1 61B5EE37
+P 12625 950
+F 0 "L?" H 12625 1050 20  0000 C CNB
+F 1 "16nH" H 12625 1000 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 12645 940 50  0001 C CNN
+F 3 "" V 12645 940 50  0001 C CNN
+	1    12625 950 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10400 1000 10400 1100
+Wire Wire Line
+	10400 1100 10500 1100
+Wire Wire Line
+	10600 1100 10600 1000
+Wire Wire Line
+	10400 900  10400 825 
+Wire Wire Line
+	10600 825  10600 900 
+Wire Wire Line
+	10825 1050 10825 1100
+Wire Wire Line
+	10825 1100 10925 1100
+Wire Wire Line
+	11025 1100 11025 1050
+Wire Wire Line
+	10825 850  10825 800 
+Wire Wire Line
+	10825 800  10925 800 
+Wire Wire Line
+	11025 800  11025 850 
+Wire Wire Line
+	11275 1000 11275 1100
+Wire Wire Line
+	11275 1100 11400 1100
+Wire Wire Line
+	11525 1100 11525 1000
+Wire Wire Line
+	11275 900  11275 775 
+Wire Wire Line
+	11275 775  11400 775 
+Wire Wire Line
+	11525 775  11525 900 
+Wire Wire Line
+	11725 1050 11725 1100
+Wire Wire Line
+	11725 1100 11800 1100
+Wire Wire Line
+	11875 1100 11875 1050
+Wire Wire Line
+	11725 850  11725 775 
+Wire Wire Line
+	11725 775  11800 775 
+Wire Wire Line
+	11875 775  11875 850 
+Wire Wire Line
+	12150 1000 12150 1100
+Wire Wire Line
+	12150 1100 12275 1100
+Wire Wire Line
+	12400 1100 12400 1000
+Wire Wire Line
+	12150 900  12150 775 
+Wire Wire Line
+	12150 775  12300 775 
+Wire Wire Line
+	12400 775  12400 900 
+Wire Wire Line
+	10400 825  10500 825 
+Wire Wire Line
+	10500 825  10500 750 
+Wire Wire Line
+	10500 750  10725 750 
+Wire Wire Line
+	10925 750  10925 800 
+Connection ~ 10500 825 
+Wire Wire Line
+	10500 825  10600 825 
+Connection ~ 10925 800 
+Wire Wire Line
+	10925 800  11025 800 
+Wire Wire Line
+	11400 775  11400 725 
+Wire Wire Line
+	11400 725  11600 725 
+Wire Wire Line
+	11800 725  11800 775 
+Connection ~ 11400 775 
+Wire Wire Line
+	11400 775  11525 775 
+Connection ~ 11800 775 
+Wire Wire Line
+	11800 775  11875 775 
+Wire Wire Line
+	12300 775  12300 725 
+Wire Wire Line
+	12300 725  12525 725 
+Connection ~ 12300 775 
+Wire Wire Line
+	12300 775  12400 775 
+Wire Wire Line
+	10725 750  10725 625 
+Connection ~ 10725 750 
+Wire Wire Line
+	10725 750  10925 750 
+Wire Wire Line
+	12525 725  12525 625 
+Wire Wire Line
+	11600 725  11600 625 
+Connection ~ 11600 725 
+Wire Wire Line
+	11600 725  11800 725 
+Connection ~ 11600 625 
+Wire Wire Line
+	11600 625  12525 625 
+Wire Wire Line
+	10925 1100 10925 2125
+Wire Wire Line
+	10925 2125 11150 2125
+Connection ~ 10925 1100
+Wire Wire Line
+	10925 1100 11025 1100
+Wire Wire Line
+	11800 1100 11800 1375
+Connection ~ 11800 1100
+Wire Wire Line
+	11800 1100 11875 1100
+Wire Wire Line
+	12525 725  12625 725 
+Wire Wire Line
+	12625 725  12625 850 
+Connection ~ 12525 725 
+Wire Wire Line
+	12625 1150 12775 1150
+Wire Wire Line
+	12775 1150 12775 2325
+Wire Wire Line
+	12625 1050 12625 1150
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62121CFF
+P 10500 1100
+F 0 "#PWR?" H 10500 850 50  0001 C CNN
+F 1 "GND" H 10505 944 28  0000 C CNN
+F 2 "" H 10500 1100 50  0001 C CNN
+F 3 "" H 10500 1100 50  0001 C CNN
+	1    10500 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 10500 1100
+Wire Wire Line
+	10500 1100 10600 1100
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62121F54
+P 11400 1100
+F 0 "#PWR?" H 11400 850 50  0001 C CNN
+F 1 "GND" H 11405 944 28  0000 C CNN
+F 2 "" H 11400 1100 50  0001 C CNN
+F 3 "" H 11400 1100 50  0001 C CNN
+	1    11400 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 11400 1100
+Wire Wire Line
+	11400 1100 11525 1100
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62122085
+P 12275 1100
+F 0 "#PWR?" H 12275 850 50  0001 C CNN
+F 1 "GND" H 12280 944 28  0000 C CNN
+F 2 "" H 12275 1100 50  0001 C CNN
+F 3 "" H 12275 1100 50  0001 C CNN
+	1    12275 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 12275 1100
+Wire Wire Line
+	12275 1100 12400 1100
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 62122248
+P 9950 925
+F 0 "C?" V 9925 875 20  0000 C CNB
+F 1 "4.7uF" H 9950 925 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 9950 925 50  0001 C CNN
+F 3 "" H 9950 925 50  0001 C CNN
+	1    9950 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9950 875  9950 625 
+Wire Wire Line
+	9950 625  10725 625 
+Connection ~ 10725 625 
+Wire Wire Line
+	10725 625  11600 625 
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 621693D8
+P 9950 975
+F 0 "#PWR?" H 9950 725 50  0001 C CNN
+F 1 "GND" H 9955 819 28  0000 C CNN
+F 2 "" H 9950 975 50  0001 C CNN
+F 3 "" H 9950 975 50  0001 C CNN
+	1    9950 975 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12000 1725 12000 1525
+Wire Wire Line
+	12000 1525 12175 1525
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 621B0984
+P 11950 1375
+F 0 "C?" V 11925 1325 20  0000 C CNB
+F 1 "DNP" H 11950 1375 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 11950 1375 50  0001 C CNN
+F 3 "" H 11950 1375 50  0001 C CNN
+	1    11950 1375
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 1375 12175 1375
+Wire Wire Line
+	12175 1375 12175 1525
+Connection ~ 12175 1525
+Wire Wire Line
+	12175 1525 12450 1525
+Wire Wire Line
+	11900 1375 11800 1375
+Connection ~ 11800 1375
+Wire Wire Line
+	11800 1375 11800 1725
+Text GLabel 12450 1525 2    39   Input ~ 0
+VGS3
+Text GLabel 11600 1575 1    39   Input ~ 0
+VGS2
+Wire Wire Line
+	11600 1575 11600 1725
+Text GLabel 11550 2925 3    39   Input ~ 0
+VGS1
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 623B0BEF
+P 10175 3500
+F 0 "R?" H 10175 3550 20  0000 C CNB
+F 1 "68K" H 10175 3500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 10175 3500 50  0001 C CNN
+F 3 "" V 10175 3500 50  0001 C CNN
+	1    10175 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 623B0BF6
+P 10175 3825
+F 0 "R?" H 10175 3875 20  0000 C CNB
+F 1 "68K" H 10175 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 10175 3825 50  0001 C CNN
+F 3 "" V 10175 3825 50  0001 C CNN
+	1    10175 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 623B0BFD
+P 10425 3825
+F 0 "C?" V 10400 3775 20  0000 C CNB
+F 1 "10nF" H 10425 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10425 3825 50  0001 C CNN
+F 3 "" H 10425 3825 50  0001 C CNN
+	1    10425 3825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10175 3725 10175 3675
+Wire Wire Line
+	10175 3675 10425 3675
+Wire Wire Line
+	10425 3675 10425 3775
+Connection ~ 10175 3675
+Wire Wire Line
+	10175 3675 10175 3600
+Wire Wire Line
+	10175 3925 10175 3975
+Wire Wire Line
+	10175 3975 10300 3975
+Wire Wire Line
+	10425 3975 10425 3875
+Text GLabel 10425 3675 2    39   Input ~ 0
+VGS1
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 623B0C0D
+P 10300 3975
+F 0 "#PWR?" H 10300 3725 50  0001 C CNN
+F 1 "GND" V 10305 3847 28  0000 R CNN
+F 2 "" H 10300 3975 50  0001 C CNN
+F 3 "" H 10300 3975 50  0001 C CNN
+	1    10300 3975
+	1    0    0    -1  
+$EndComp
+Connection ~ 10300 3975
+Wire Wire Line
+	10300 3975 10425 3975
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 623FBA14
+P 10850 3500
+F 0 "R?" H 10850 3550 20  0000 C CNB
+F 1 "68K" H 10850 3500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 10850 3500 50  0001 C CNN
+F 3 "" V 10850 3500 50  0001 C CNN
+	1    10850 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 623FBA1B
+P 10850 3825
+F 0 "R?" H 10850 3875 20  0000 C CNB
+F 1 "47K" H 10850 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 10850 3825 50  0001 C CNN
+F 3 "" V 10850 3825 50  0001 C CNN
+	1    10850 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 623FBA22
+P 11100 3825
+F 0 "C?" V 11075 3775 20  0000 C CNB
+F 1 "10nF" H 11100 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 11100 3825 50  0001 C CNN
+F 3 "" H 11100 3825 50  0001 C CNN
+	1    11100 3825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10850 3725 10850 3675
+Wire Wire Line
+	10850 3675 11100 3675
+Wire Wire Line
+	11100 3675 11100 3775
+Connection ~ 10850 3675
+Wire Wire Line
+	10850 3675 10850 3600
+Wire Wire Line
+	10850 3925 10850 3975
+Wire Wire Line
+	10850 3975 10975 3975
+Wire Wire Line
+	11100 3975 11100 3875
+Text GLabel 11100 3675 2    39   Input ~ 0
+VGS2
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 623FBA32
+P 10975 3975
+F 0 "#PWR?" H 10975 3725 50  0001 C CNN
+F 1 "GND" V 10980 3847 28  0000 R CNN
+F 2 "" H 10975 3975 50  0001 C CNN
+F 3 "" H 10975 3975 50  0001 C CNN
+	1    10975 3975
+	1    0    0    -1  
+$EndComp
+Connection ~ 10975 3975
+Wire Wire Line
+	10975 3975 11100 3975
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 624487E8
+P 11475 3500
+F 0 "R?" H 11475 3550 20  0000 C CNB
+F 1 "100K" H 11475 3500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 11475 3500 50  0001 C CNN
+F 3 "" V 11475 3500 50  0001 C CNN
+	1    11475 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 624487EF
+P 11475 3825
+F 0 "R?" H 11475 3875 20  0000 C CNB
+F 1 "39K" H 11475 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 11475 3825 50  0001 C CNN
+F 3 "" V 11475 3825 50  0001 C CNN
+	1    11475 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 624487F6
+P 11725 3825
+F 0 "C?" V 11700 3775 20  0000 C CNB
+F 1 "100pF" H 11725 3825 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 11725 3825 50  0001 C CNN
+F 3 "" H 11725 3825 50  0001 C CNN
+	1    11725 3825
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11475 3725 11475 3675
+Wire Wire Line
+	11475 3675 11725 3675
+Wire Wire Line
+	11725 3675 11725 3775
+Connection ~ 11475 3675
+Wire Wire Line
+	11475 3675 11475 3600
+Wire Wire Line
+	11475 3925 11475 3975
+Wire Wire Line
+	11475 3975 11600 3975
+Wire Wire Line
+	11725 3975 11725 3875
+Text GLabel 11975 3675 2    39   Input ~ 0
+VGS3
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62448806
+P 11600 3975
+F 0 "#PWR?" H 11600 3725 50  0001 C CNN
+F 1 "GND" V 11605 3847 28  0000 R CNN
+F 2 "" H 11600 3975 50  0001 C CNN
+F 3 "" H 11600 3975 50  0001 C CNN
+	1    11600 3975
+	1    0    0    -1  
+$EndComp
+Connection ~ 11600 3975
+Wire Wire Line
+	11600 3975 11725 3975
+Wire Wire Line
+	10175 3400 10175 3300
+Wire Wire Line
+	10175 3300 10850 3300
+Wire Wire Line
+	10850 3300 10850 3400
+Wire Wire Line
+	11475 3400 11475 3275
+Wire Wire Line
+	11475 3275 12150 3275
+Wire Wire Line
+	12150 3275 12150 3000
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 62537608
+P 12300 3050
+F 0 "C?" V 12275 3000 20  0000 C CNB
+F 1 "DNP" H 12300 3050 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 12300 3050 50  0001 C CNN
+F 3 "" H 12300 3050 50  0001 C CNN
+	1    12300 3050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12300 3000 12150 3000
+Connection ~ 12150 3000
+Wire Wire Line
+	12150 3000 12150 2925
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62588046
+P 12300 3100
+F 0 "#PWR?" H 12300 2850 50  0001 C CNN
+F 1 "GND" V 12305 2972 28  0000 R CNN
+F 2 "" H 12300 3100 50  0001 C CNN
+F 3 "" H 12300 3100 50  0001 C CNN
+	1    12300 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 625D9BC3
+P 12875 2500
+F 0 "C?" V 12850 2450 20  0000 C CNB
+F 1 "4.7pF" H 12875 2500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 12875 2500 50  0001 C CNN
+F 3 "" H 12875 2500 50  0001 C CNN
+	1    12875 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 625D9D45
+P 13175 2500
+F 0 "C?" V 13150 2450 20  0000 C CNB
+F 1 "DNP" H 13175 2500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 13175 2500 50  0001 C CNN
+F 3 "" H 13175 2500 50  0001 C CNN
+	1    13175 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 625D9EA9
+P 13375 2500
+F 0 "C?" V 13350 2450 20  0000 C CNB
+F 1 "18pF" H 13375 2500 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 13375 2500 50  0001 C CNN
+F 3 "" H 13375 2500 50  0001 C CNN
+	1    13375 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L?
+U 1 1 6262B1AD
+P 13025 2325
+F 0 "L?" H 13025 2425 20  0000 C CNB
+F 1 "3.6nH" H 13025 2375 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 13045 2315 50  0001 C CNN
+F 3 "" V 13045 2315 50  0001 C CNN
+	1    13025 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12775 2325 12875 2325
+Connection ~ 12775 2325
+Wire Wire Line
+	13125 2325 13175 2325
+Wire Wire Line
+	12875 2450 12875 2325
+Connection ~ 12875 2325
+Wire Wire Line
+	12875 2325 12925 2325
+Wire Wire Line
+	12875 2550 12875 2600
+Wire Wire Line
+	12875 2600 13175 2600
+Wire Wire Line
+	13375 2600 13375 2550
+Wire Wire Line
+	13175 2550 13175 2600
+Connection ~ 13175 2600
+Wire Wire Line
+	13175 2600 13275 2600
+Wire Wire Line
+	13175 2325 13175 2450
+Connection ~ 13175 2325
+Wire Wire Line
+	13175 2325 13375 2325
+Wire Wire Line
+	13375 2450 13375 2325
+Connection ~ 13375 2325
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 628BD64E
+P 13275 2600
+F 0 "#PWR?" H 13275 2350 50  0001 C CNN
+F 1 "GND" V 13280 2472 28  0000 R CNN
+F 2 "" H 13275 2600 50  0001 C CNN
+F 3 "" H 13275 2600 50  0001 C CNN
+	1    13275 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 13275 2600
+Wire Wire Line
+	13275 2600 13375 2600
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 628BDF69
+P 10150 2475
+F 0 "C?" V 10125 2425 20  0000 C CNB
+F 1 "5.6pF" H 10150 2475 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10150 2475 50  0001 C CNN
+F 3 "" H 10150 2475 50  0001 C CNN
+	1    10150 2475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 628BE180
+P 10450 2475
+F 0 "C?" V 10425 2425 20  0000 C CNB
+F 1 "DNP" H 10450 2475 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10450 2475 50  0001 C CNN
+F 3 "" H 10450 2475 50  0001 C CNN
+	1    10450 2475
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Capacitor-Capacitor-Radar-RF-rescue-Radar-v2-rescue C?
+U 1 1 628BE2F0
+P 10675 2675
+F 0 "C?" V 10650 2625 20  0000 C CNB
+F 1 "1nF" H 10675 2675 20  0000 C CNB
+F 2 "Footprints:SMD_0402" H 10675 2675 50  0001 C CNN
+F 3 "" H 10675 2675 50  0001 C CNN
+	1    10675 2675
+	-1   0    0    1   
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 628BE7BB
+P 10675 2475
+F 0 "R?" H 10675 2525 20  0000 C CNB
+F 1 "470" H 10675 2475 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 10675 2475 50  0001 C CNN
+F 3 "" V 10675 2475 50  0001 C CNN
+	1    10675 2475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Radar-v2-rescue:Ferrite_Bead-Ferrite_Bead-Radar-RF-rescue-Radar-v2-rescue L?
+U 1 1 628BE93B
+P 10300 2325
+F 0 "L?" H 10300 2425 20  0000 C CNB
+F 1 "43nH" H 10300 2375 20  0000 C CNB
+F 2 "Footprints:SMD_0603" V 10320 2315 50  0001 C CNN
+F 3 "" V 10320 2315 50  0001 C CNN
+	1    10300 2325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10400 2325 10450 2325
+Wire Wire Line
+	10675 2375 10675 2325
+Wire Wire Line
+	10450 2425 10450 2325
+Connection ~ 10450 2325
+Wire Wire Line
+	10450 2325 10675 2325
+Wire Wire Line
+	10150 2425 10150 2325
+Wire Wire Line
+	10150 2325 10200 2325
+Wire Wire Line
+	10675 2575 10675 2625
+Wire Wire Line
+	10450 2525 10450 2775
+Wire Wire Line
+	10450 2775 10675 2775
+Wire Wire Line
+	10675 2775 10675 2725
+Wire Wire Line
+	10150 2525 10150 2775
+Wire Wire Line
+	10150 2775 10450 2775
+Connection ~ 10450 2775
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 62BC46A3
+P 10450 2775
+F 0 "#PWR?" H 10450 2525 50  0001 C CNN
+F 1 "GND" V 10455 2647 28  0000 R CNN
+F 2 "" H 10450 2775 50  0001 C CNN
+F 3 "" H 10450 2775 50  0001 C CNN
+	1    10450 2775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Radar-v2-rescue:Resistor-Resistor-Radar-RF-rescue-Radar-v2-rescue R?
+U 1 1 62BCB1B9
+P 11875 3675
+F 0 "R?" H 11875 3725 20  0000 C CNB
+F 1 "51" H 11875 3675 20  0000 C CNB
+F 2 "Footprints:SMD_0402" V 11875 3675 50  0001 C CNN
+F 3 "" V 11875 3675 50  0001 C CNN
+	1    11875 3675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11775 3675 11725 3675
+Connection ~ 11725 3675
+$Comp
+L Radar-v2-rescue:+3.3-+3.3 #PWR?
+U 1 1 62C2A086
+P 9950 625
+F 0 "#PWR?" H 9950 475 50  0001 C CNN
+F 1 "+3.3" H 9965 816 39  0000 C CNN
+F 2 "" H 9950 625 50  0001 C CNN
+F 3 "" H 9950 625 50  0001 C CNN
+	1    9950 625 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 9950 625 
+$Comp
+L Radar-v2-rescue:+3.3-+3.3 #PWR?
+U 1 1 62C2BC23
+P 12150 3275
+F 0 "#PWR?" H 12150 3125 50  0001 C CNN
+F 1 "+3.3" H 12165 3466 39  0000 C CNN
+F 2 "" H 12150 3275 50  0001 C CNN
+F 3 "" H 12150 3275 50  0001 C CNN
+	1    12150 3275
+	-1   0    0    1   
+$EndComp
+Connection ~ 12150 3275
+Wire Wire Line
+	13375 2325 14125 2325
+Wire Wire Line
+	10175 3300 9850 3300
+Wire Wire Line
+	9850 3300 9850 3925
+Wire Wire Line
+	9600 3925 9850 3925
+Connection ~ 10175 3300
+Text Notes 12900 1750 0    39   ~ 8
+All components value\nadjusted for 435MHz
+Connection ~ 10150 2325
+Wire Wire Line
+	9550 2325 10150 2325
+Connection ~ 11075 2325
+Connection ~ 10675 2325
+Wire Wire Line
+	10675 2325 11075 2325
+Text Notes 13350 2950 0    39   ~ 8
+Pout = 24 dB to 34 dB -16dB\n= 8dB-18dB\n
+Wire Wire Line
+	10450 6150 11100 6150
+Text Notes 11125 6825 0    39   ~ 0
+LNA\nBGA729N6E6327XTSA1\nInsertion power gain: 16.3 dB\nOperating frequency: 70 - 1000 MHz\nSupply voltage: 1.5 V to 3.3 V\nRF input and output internally matched to 50 Ω
+$Comp
+L Rf_library:BGA729N6E6327XTSA1 U?
+U 1 1 6313691F
+P 11500 5900
+F 0 "U?" H 11450 5709 39  0000 C CNN
+F 1 "BGA729N6E6327XTSA1" H 11450 5784 39  0000 C CNN
+F 2 "" H 11500 5900 39  0001 C CNN
+F 3 "" H 11500 5900 39  0001 C CNN
+	1    11500 5900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	11025 6050 11100 6050
+Wire Wire Line
+	11025 5650 12050 5650
+Wire Wire Line
+	12000 6050 12250 6050
+Wire Wire Line
+	12350 6050 12850 6050
+Wire Wire Line
+	12000 5950 12050 5950
+Wire Wire Line
+	12050 5950 12050 5650
+Connection ~ 12050 5650
+Wire Wire Line
+	12050 5650 12200 5650
+Wire Wire Line
+	11025 5650 11025 6050
+Wire Wire Line
+	10925 5650 11025 5650
+Connection ~ 11025 5650
+$Comp
+L Radar-v2-rescue:GND-GND-Radar-RF-rescue-Radar-v2-rescue #PWR?
+U 1 1 63479460
+P 11100 5950
+F 0 "#PWR?" H 11100 5700 50  0001 C CNN
+F 1 "GND" H 11105 5794 28  0000 C CNN
+F 2 "" H 11100 5950 50  0001 C CNN
+F 3 "" H 11100 5950 50  0001 C CNN
+	1    11100 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Rf_library:DXW21HN5011BL U?
+U 1 1 6350FFE7
+P 7950 6250
+F 0 "U?" H 7950 6009 39  0000 C CNN
+F 1 "DXW21HN5011BL" H 7950 6084 39  0000 C CNN
+F 2 "" H 7950 6250 39  0001 C CNN
+F 3 "" H 7950 6250 39  0001 C CNN
+	1    7950 6250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8475 6050 8475 6400
+Wire Wire Line
+	8475 6400 8350 6400
 $EndSCHEMATC
